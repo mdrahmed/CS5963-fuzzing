@@ -153,3 +153,9 @@ sh: 1: cannot create cpu*/cpufreq/scaling_governor: Directory nonexistent
 ```
 
 After this step, when I ran `afl-fuzz -i in -o out ./fuzzgoat`, it worked.
+
+
+## Notes on docker
+I executed the command `afl-fuzz -i in -o out ./fuzzgoat` but got the same issues on docker. I tried to fix it inside docker by going to the directories and doing necessary changes e.g.,
+`echo core >/proc/sys/kernel/core_pattern` but it didn't let me do that because this `/proc/sys/kernel/core_pattern` is my system file and docker cannot make changes to my system file. 
+So, when I changed the file inside my system (not inside docker, I did it outside docker). Then it worked fine inside docker.
