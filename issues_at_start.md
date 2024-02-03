@@ -1,4 +1,4 @@
-# Lab 1
+# Lab 1: Beginner Fuzzing
 
 ## Erros Encountered
 It was not able to find `afl-cc` or some other libraries because the library was not shared globally meaning it was not present inside the `/usr/local/bin` or `/usr/bin/`. So, just went to the `AFLplusplus` directory and ran `sudo make install`.
