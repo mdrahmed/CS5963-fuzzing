@@ -10,7 +10,7 @@ afl-fuzz -i in -o out ./fuzzgoat_afl @@
 2. Run in Qemu-mode and enable bit flips with `-Q` and `-D`. The qemu-mode will instrument at runtime, so, it should be compiled with general compilers like `gcc` or `clang-14`
 ```
 clang-14 -o fuzz_target_qemu fuzzgoat.c
-afl-fuzz -i in -D -Q -o out ./fuzzfuzz_target_qemugoat  @@
+afl-fuzz -i in -D -Q -o out ./fuzz_target_qemu  @@
 ```
 ![qemu](pics/qemu-mode.png)
 
