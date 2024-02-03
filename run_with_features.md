@@ -1,17 +1,18 @@
 ## Features - different modes
+Check `afl-fuzz -h` for details.
 1. llvm-mode: just compile it with `afl-clang` and run it.
 ```
-afl-clang-fast -o fuzzgoat_afl fuzzgoat.c
+afl-cc -o fuzzgoat_afl fuzzgoat.c
 afl-fuzz -i in -o out ./fuzzgoat_afl @@
 ```
 ![llvm-mode](pics/llvm-mode.png)
 
 2. Run in Qemu-mode and enable bit flips with `-Q` and `-D`. The qemu-mode will instrument at runtime, so, it should be compiled with general compilers like `gcc` or `clang-14`
 ```
-afl-fuzz -i in -D -Q -o out ./fuzzgoat  @@
+clang-14 -o fuzz_target_qemu fuzzgoat.c
+afl-fuzz -i in -D -Q -o out ./fuzzfuzz_target_qemugoat  @@
 ```
-It has 0% coverage.
-![qemu1](pics/qemu-modepng)
+![qemu](pics/qemu-mode.png)
 
 
 3. Run in unicorn-mode with `-U`
@@ -26,14 +27,15 @@ To check the support for unicorn-mode with `./fuzzgoat_aflunicorn -h` and check 
 
 4. Frida-mode: 
 ```
-afl-clang-fast -o fuzz_target_frida afl_fuzz_target.c
-afl-fuzz -U -i in -o out -- ./fuzz_target_frida
+clang-14 -o fuzz_target_frida fuzzgoat.c
+afl-fuzz -i in -O -o out -- ./fuzz_target_frida @@
 ```
+![frida](pics/frida-mode.png)
 
 5. nyx-mode: install nyx first
 ```
-afl-clang-fast -o fuzz_target_nyx afl_fuzz_target.c
-afl-fuzz -Y -i in -o out -- ./fuzz_target_nyx
+afl-clang-fast -o fuzz_target_nyx fuzzgoat.c
+afl-fuzz -Y -i in -o out -- ./fuzz_target_nyx @@
 ```
 
 In terms of speed and code coverage, `llvm` and `unicorn` are better. 
