@@ -1,8 +1,8 @@
 #CC=afl-gcc
 #CC=afl-cc 
-#CC=clang-14 # Use this to run in qemu-mode, as this will instrument dynamically
+CC=clang-14 # Use this to run in qemu-mode, as this will instrument dynamically
 #CC=afl-c++
-CC=afl-clang-fast # use this to run in llvm or unicorn or frida or nyx mode
+#CC=afl-clang-fast # use this to run in llvm or unicorn or frida or nyx mode
 DEPS=main.c fuzzgoat.c
 ASAN=-fsanitize=address
 CFLAGS=-I.
