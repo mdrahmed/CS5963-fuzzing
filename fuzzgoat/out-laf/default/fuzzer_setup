@@ -1,0 +1,7 @@
+# environment variables:
+AFL_CUSTOM_INFO_PROGRAM=./fuzzgoat
+AFL_CUSTOM_INFO_PROGRAM_ARGV=@@
+AFL_CUSTOM_INFO_OUT=out-laf/default
+AFL_LLVM_LAF_SPLIT_SWITCHES=1
+# command line:
+'afl-fuzz' '-i' 'in' '-Q' '-o' 'out-laf' './fuzzgoat' '@@'
