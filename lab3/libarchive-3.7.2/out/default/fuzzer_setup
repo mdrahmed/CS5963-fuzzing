@@ -1,0 +1,6 @@
+# environment variables:
+AFL_CUSTOM_INFO_PROGRAM=./bsdtar
+AFL_CUSTOM_INFO_PROGRAM_ARGV=-tf @@
+AFL_CUSTOM_INFO_OUT=out/default
+# command line:
+'afl-fuzz' '-i' 'in/' '-D' '-o' 'out' '--' './bsdtar' '-tf' '@@'

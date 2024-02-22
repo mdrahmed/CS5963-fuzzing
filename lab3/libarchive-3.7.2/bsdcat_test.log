@@ -1,0 +1,35 @@
+
+If tests fail or crash, details will be in:
+   /tmp/bsdcat_test.2024-02-22T14.46.08-000
+
+Reference files will be read from: /home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/cat/test
+Running tests on: "/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/bsdcat"
+Exercising: bsdcat 3.7.2 - libarchive 3.7.2 zlib/1.2.13 
+
+  0: test_0                                                          ok
+  1: test_empty_gz                                                   ok
+  2: test_empty_lz4                                                  ok
+  3: test_empty_xz                                                   ok
+  4: test_empty_zstd                                                 ok
+  5: test_error                                                      ok
+  6: test_error_mixed                                                ok
+  7: test_expand_bz2                                                 ok
+  8: test_expand_gz                                                  ok
+  9: test_expand_lz4                                                 ok
+ 10: test_expand_mixed                                               ok
+ 11: test_expand_plain                                               ok
+ 12: test_expand_xz                                                  ok
+ 13: test_expand_Z                                                   ok
+ 14: test_expand_zstd                                                ok
+ 15: test_help                                                       ok
+ 16: test_stdin                                                      ok
+ 17: test_version                                                    ok
+
+Totals:
+  Tests run:               18
+  Tests failed:             0
+  Assertions checked:    1051
+  Assertions failed:        0
+  Skips reported:           0
+18 tests passed, no failures
+PASS bsdcat_test (exit status: 0)

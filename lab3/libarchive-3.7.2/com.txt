@@ -1,0 +1,1741 @@
+make  check-am
+make[1]: Entering directory '/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2'
+make  libarchive_test bsdtar_test bsdcpio_test bsdcat_test bsdunzip_test
+make[2]: Entering directory '/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2'
+  CC       libarchive/test-archive_acl.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 799 locations with no collisions (non-hardened mode) of which are 61 handled and 0 unhandled selects.[0m
+  CC       libarchive/test-archive_check_magic.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 38 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test-archive_cmdline.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 55 locations with no collisions (non-hardened mode) of which are 4 handled and 0 unhandled selects.[0m
+  CC       libarchive/test-archive_cryptor.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 5 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test-archive_digest.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 18 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test-archive_entry.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 402 locations with no collisions (non-hardened mode) of which are 27 handled and 0 unhandled selects.[0m
+  CC       libarchive/test-archive_entry_copy_stat.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test-archive_entry_link_resolver.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 87 locations with no collisions (non-hardened mode) of which are 1 handled and 0 unhandled selects.[0m
+  CC       libarchive/test-archive_entry_sparse.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 39 locations with no collisions (non-hardened mode) of which are 1 handled and 0 unhandled selects.[0m
+  CC       libarchive/test-archive_entry_stat.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 5 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test-archive_entry_strmode.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 38 locations with no collisions (non-hardened mode) of which are 3 handled and 0 unhandled selects.[0m
+  CC       libarchive/test-archive_entry_xattr.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 20 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test-archive_getdate.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 200 locations with no collisions (non-hardened mode) of which are 32 handled and 0 unhandled selects.[0m
+  CC       libarchive/test-archive_hmac.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 5 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test-archive_match.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 430 locations with no collisions (non-hardened mode) of which are 12 handled and 0 unhandled selects.[0m
+  CC       libarchive/test-archive_options.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 78 locations with no collisions (non-hardened mode) of which are 17 handled and 0 unhandled selects.[0m
+  CC       libarchive/test-archive_pack_dev.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 56 locations with no collisions (non-hardened mode) of which are 8 handled and 0 unhandled selects.[0m
+  CC       libarchive/test-archive_pathmatch.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 214 locations with no collisions (non-hardened mode) of which are 8 handled and 0 unhandled selects.[0m
+  CC       libarchive/test-archive_ppmd7.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 348 locations with no collisions (non-hardened mode) of which are 14 handled and 0 unhandled selects.[0m
+  CC       libarchive/test-archive_ppmd8.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 439 locations with no collisions (non-hardened mode) of which are 37 handled and 0 unhandled selects.[0m
+  CC       libarchive/test-archive_random.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 21 locations with no collisions (non-hardened mode) of which are 2 handled and 0 unhandled selects.[0m
+  CC       libarchive/test-archive_rb.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 134 locations with no collisions (non-hardened mode) of which are 14 handled and 0 unhandled selects.[0m
+  CC       libarchive/test-archive_read.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 552 locations with no collisions (non-hardened mode) of which are 39 handled and 0 unhandled selects.[0m
+  CC       libarchive/test-archive_read_add_passphrase.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 28 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test-archive_read_append_filter.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 111 locations with no collisions (non-hardened mode) of which are 1 handled and 0 unhandled selects.[0m
+  CC       libarchive/test-archive_read_data_into_fd.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 30 locations with no collisions (non-hardened mode) of which are 4 handled and 0 unhandled selects.[0m
+  CC       libarchive/test-archive_read_disk_entry_from_file.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 150 locations with no collisions (non-hardened mode) of which are 5 handled and 0 unhandled selects.[0m
+  CC       libarchive/test-archive_read_disk_posix.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 453 locations with no collisions (non-hardened mode) of which are 18 handled and 0 unhandled selects.[0m
+  CC       libarchive/test-archive_read_disk_set_standard_lookup.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 42 locations with no collisions (non-hardened mode) of which are 2 handled and 0 unhandled selects.[0m
+  CC       libarchive/test-archive_read_extract.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 5 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test-archive_read_extract2.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 38 locations with no collisions (non-hardened mode) of which are 5 handled and 0 unhandled selects.[0m
+  CC       libarchive/test-archive_read_open_fd.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 22 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test-archive_read_open_file.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 14 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test-archive_read_open_filename.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 82 locations with no collisions (non-hardened mode) of which are 1 handled and 0 unhandled selects.[0m
+  CC       libarchive/test-archive_read_open_memory.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 20 locations with no collisions (non-hardened mode) of which are 2 handled and 0 unhandled selects.[0m
+  CC       libarchive/test-archive_read_set_format.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 29 locations with no collisions (non-hardened mode) of which are 2 handled and 0 unhandled selects.[0m
+  CC       libarchive/test-archive_read_set_options.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 23 locations with no collisions (non-hardened mode) of which are 3 handled and 0 unhandled selects.[0m
+  CC       libarchive/test-archive_read_support_filter_all.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 4 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test-archive_read_support_filter_bzip2.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 14 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test-archive_read_support_filter_by_code.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 17 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test-archive_read_support_filter_compress.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 69 locations with no collisions (non-hardened mode) of which are 3 handled and 0 unhandled selects.[0m
+  CC       libarchive/test-archive_read_support_filter_grzip.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 11 locations with no collisions (non-hardened mode) of which are 2 handled and 0 unhandled selects.[0m
+  CC       libarchive/test-archive_read_support_filter_gzip.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 74 locations with no collisions (non-hardened mode) of which are 6 handled and 0 unhandled selects.[0m
+  CC       libarchive/test-archive_read_support_filter_lrzip.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 13 locations with no collisions (non-hardened mode) of which are 2 handled and 0 unhandled selects.[0m
+  CC       libarchive/test-archive_read_support_filter_lz4.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 11 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test-archive_read_support_filter_lzop.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 11 locations with no collisions (non-hardened mode) of which are 2 handled and 0 unhandled selects.[0m
+  CC       libarchive/test-archive_read_support_filter_none.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 6 locations with no collisions (non-hardened mode) of which are 2 handled and 0 unhandled selects.[0m
+  CC       libarchive/test-archive_read_support_filter_program.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 70 locations with no collisions (non-hardened mode) of which are 1 handled and 0 unhandled selects.[0m
+  CC       libarchive/test-archive_read_support_filter_rpm.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 51 locations with no collisions (non-hardened mode) of which are 6 handled and 0 unhandled selects.[0m
+  CC       libarchive/test-archive_read_support_filter_uu.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 207 locations with no collisions (non-hardened mode) of which are 15 handled and 0 unhandled selects.[0m
+  CC       libarchive/test-archive_read_support_filter_xz.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 59 locations with no collisions (non-hardened mode) of which are 4 handled and 0 unhandled selects.[0m
+  CC       libarchive/test-archive_read_support_filter_zstd.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 10 locations with no collisions (non-hardened mode) of which are 1 handled and 0 unhandled selects.[0m
+  CC       libarchive/test-archive_read_support_format_7zip.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1011 locations with no collisions (non-hardened mode) of which are 57 handled and 0 unhandled selects.[0m
+  CC       libarchive/test-archive_read_support_format_all.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 3 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test-archive_read_support_format_ar.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 436 locations with no collisions (non-hardened mode) of which are 28 handled and 0 unhandled selects.[0m
+  CC       libarchive/test-archive_read_support_format_by_code.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 18 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test-archive_read_support_format_cab.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 868 locations with no collisions (non-hardened mode) of which are 55 handled and 0 unhandled selects.[0m
+  CC       libarchive/test-archive_read_support_format_cpio.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1644 locations with no collisions (non-hardened mode) of which are 2 handled and 0 unhandled selects.[0m
+  CC       libarchive/test-archive_read_support_format_empty.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 9 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test-archive_read_support_format_iso9660.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 684 locations with no collisions (non-hardened mode) of which are 62 handled and 0 unhandled selects.[0m
+  CC       libarchive/test-archive_read_support_format_lha.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 684 locations with no collisions (non-hardened mode) of which are 36 handled and 0 unhandled selects.[0m
+  CC       libarchive/test-archive_read_support_format_mtree.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 644 locations with no collisions (non-hardened mode) of which are 29 handled and 0 unhandled selects.[0m
+  CC       libarchive/test-archive_read_support_format_rar.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1042 locations with no collisions (non-hardened mode) of which are 70 handled and 0 unhandled selects.[0m
+  CC       libarchive/test-archive_read_support_format_rar5.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 797 locations with no collisions (non-hardened mode) of which are 38 handled and 0 unhandled selects.[0m
+  CC       libarchive/test-archive_read_support_format_raw.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 23 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test-archive_read_support_format_tar.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1234 locations with no collisions (non-hardened mode) of which are 56 handled and 0 unhandled selects.[0m
+  CC       libarchive/test-archive_read_support_format_warc.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 303 locations with no collisions (non-hardened mode) of which are 21 handled and 0 unhandled selects.[0m
+  CC       libarchive/test-archive_read_support_format_xar.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 3 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test-archive_read_support_format_zip.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 736 locations with no collisions (non-hardened mode) of which are 30 handled and 0 unhandled selects.[0m
+  CC       libarchive/test-archive_string.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1042 locations with no collisions (non-hardened mode) of which are 101 handled and 0 unhandled selects.[0m
+  CC       libarchive/test-archive_string_sprintf.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 60 locations with no collisions (non-hardened mode) of which are 3 handled and 0 unhandled selects.[0m
+  CC       libarchive/test-archive_util.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 86 locations with no collisions (non-hardened mode) of which are 2 handled and 0 unhandled selects.[0m
+  CC       libarchive/test-archive_version_details.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 6 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test-archive_virtual.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 31 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test-archive_write.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 252 locations with no collisions (non-hardened mode) of which are 22 handled and 0 unhandled selects.[0m
+  CC       libarchive/test-archive_write_disk_posix.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 621 locations with no collisions (non-hardened mode) of which are 16 handled and 0 unhandled selects.[0m
+  CC       libarchive/test-archive_write_disk_set_standard_lookup.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 36 locations with no collisions (non-hardened mode) of which are 2 handled and 0 unhandled selects.[0m
+  CC       libarchive/test-archive_write_open_fd.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 20 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test-archive_write_open_file.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 11 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test-archive_write_open_filename.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 45 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test-archive_write_open_memory.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 15 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test-archive_write_add_filter.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 4 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test-archive_write_add_filter_b64encode.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 48 locations with no collisions (non-hardened mode) of which are 1 handled and 0 unhandled selects.[0m
+  CC       libarchive/test-archive_write_add_filter_by_name.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 15 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test-archive_write_add_filter_bzip2.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 19 locations with no collisions (non-hardened mode) of which are 1 handled and 0 unhandled selects.[0m
+  CC       libarchive/test-archive_write_add_filter_compress.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 71 locations with no collisions (non-hardened mode) of which are 3 handled and 0 unhandled selects.[0m
+  CC       libarchive/test-archive_write_add_filter_grzip.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 10 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test-archive_write_add_filter_gzip.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 56 locations with no collisions (non-hardened mode) of which are 3 handled and 0 unhandled selects.[0m
+  CC       libarchive/test-archive_write_add_filter_lrzip.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 25 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test-archive_write_add_filter_lz4.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 37 locations with no collisions (non-hardened mode) of which are 3 handled and 0 unhandled selects.[0m
+  CC       libarchive/test-archive_write_add_filter_lzop.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 16 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test-archive_write_add_filter_none.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 2 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test-archive_write_add_filter_program.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 67 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test-archive_write_add_filter_uuencode.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 66 locations with no collisions (non-hardened mode) of which are 10 handled and 0 unhandled selects.[0m
+  CC       libarchive/test-archive_write_add_filter_xz.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 6 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test-archive_write_add_filter_zstd.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 41 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test-archive_write_set_format.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 26 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test-archive_write_set_format_7zip.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 496 locations with no collisions (non-hardened mode) of which are 13 handled and 0 unhandled selects.[0m
+  CC       libarchive/test-archive_write_set_format_ar.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 122 locations with no collisions (non-hardened mode) of which are 4 handled and 0 unhandled selects.[0m
+  CC       libarchive/test-archive_write_set_format_by_name.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 4 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test-archive_write_set_format_cpio.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test-archive_write_set_format_cpio_binary.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 100 locations with no collisions (non-hardened mode) of which are 7 handled and 0 unhandled selects.[0m
+  CC       libarchive/test-archive_write_set_format_cpio_newc.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 98 locations with no collisions (non-hardened mode) of which are 16 handled and 0 unhandled selects.[0m
+  CC       libarchive/test-archive_write_set_format_cpio_odc.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 105 locations with no collisions (non-hardened mode) of which are 17 handled and 0 unhandled selects.[0m
+  CC       libarchive/test-archive_write_set_format_filter_by_ext.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 26 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test-archive_write_set_format_iso9660.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1822 locations with no collisions (non-hardened mode) of which are 123 handled and 0 unhandled selects.[0m
+  CC       libarchive/test-archive_write_set_format_mtree.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 526 locations with no collisions (non-hardened mode) of which are 21 handled and 0 unhandled selects.[0m
+  CC       libarchive/test-archive_write_set_format_pax.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 478 locations with no collisions (non-hardened mode) of which are 35 handled and 0 unhandled selects.[0m
+  CC       libarchive/test-archive_write_set_format_raw.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 14 locations with no collisions (non-hardened mode) of which are 1 handled and 0 unhandled selects.[0m
+  CC       libarchive/test-archive_write_set_format_shar.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 193 locations with no collisions (non-hardened mode) of which are 10 handled and 0 unhandled selects.[0m
+  CC       libarchive/test-archive_write_set_format_ustar.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 202 locations with no collisions (non-hardened mode) of which are 4 handled and 0 unhandled selects.[0m
+  CC       libarchive/test-archive_write_set_format_v7tar.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 77 locations with no collisions (non-hardened mode) of which are 4 handled and 0 unhandled selects.[0m
+  CC       libarchive/test-archive_write_set_format_gnutar.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 122 locations with no collisions (non-hardened mode) of which are 15 handled and 0 unhandled selects.[0m
+  CC       libarchive/test-archive_write_set_format_warc.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 48 locations with no collisions (non-hardened mode) of which are 2 handled and 0 unhandled selects.[0m
+  CC       libarchive/test-archive_write_set_format_xar.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test-archive_write_set_format_zip.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 369 locations with no collisions (non-hardened mode) of which are 31 handled and 0 unhandled selects.[0m
+  CC       libarchive/test-archive_write_set_options.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 27 locations with no collisions (non-hardened mode) of which are 3 handled and 0 unhandled selects.[0m
+  CC       libarchive/test-archive_write_set_passphrase.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 15 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test-filter_fork_posix.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 29 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test-xxhash.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;93m[!] [1;97mWARNING: [0mNo instrumentation targets found.[0m
+  CC       libarchive/test-archive_blake2s_ref.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 36 locations with no collisions (non-hardened mode) of which are 1 handled and 0 unhandled selects.[0m
+  CC       libarchive/test-archive_blake2sp_ref.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 66 locations with no collisions (non-hardened mode) of which are 4 handled and 0 unhandled selects.[0m
+  CC       test_utils/libarchive_test-test_utils.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 15 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       test_utils/libarchive_test-test_main.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 844 locations with no collisions (non-hardened mode) of which are 44 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-read_open_memory.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 31 locations with no collisions (non-hardened mode) of which are 2 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_acl_nfs4.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 3 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_acl_pax.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 2 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_acl_platform_nfs4.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_acl_platform_posix1e.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 2 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_acl_posix1e.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 3 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_acl_text.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 19 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_archive_api_feature.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 6 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_archive_clear_error.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_archive_cmdline.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 11 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_archive_digest.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 18 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_archive_getdate.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_archive_match_owner.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 19 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_archive_match_path.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 31 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_archive_match_time.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 71 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_archive_pathmatch.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_archive_read_add_passphrase.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 16 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_archive_read_close_twice.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_archive_read_close_twice_open_fd.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_archive_read_close_twice_open_filename.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_archive_read_multiple_data_objects.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 32 locations with no collisions (non-hardened mode) of which are 1 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_archive_read_next_header_empty.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 2 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_archive_read_next_header_raw.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 4 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_archive_read_open2.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 8 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_archive_read_set_filter_option.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 4 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_archive_read_set_format_option.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 4 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_archive_read_set_option.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 4 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_archive_read_set_options.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 16 locations with no collisions (non-hardened mode) of which are 1 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_archive_read_support.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 8 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_archive_set_error.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_archive_string.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 6 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_archive_string_conversion.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 110 locations with no collisions (non-hardened mode) of which are 7 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_archive_write_add_filter_by_name.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 26 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_archive_write_set_filter_option.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 4 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_archive_write_set_format_by_name.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 41 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_archive_write_set_format_filter_by_ext.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 27 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_archive_write_set_format_option.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 4 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_archive_write_set_option.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 4 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_archive_write_set_options.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 16 locations with no collisions (non-hardened mode) of which are 1 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_archive_write_set_passphrase.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 6 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_bad_fd.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_compat_bzip2.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 5 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_compat_cpio.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_compat_gtar.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 6 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_compat_gzip.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 7 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_compat_lz4.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 7 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_compat_lzip.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 5 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_compat_lzma.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 5 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_compat_lzop.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 3 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_compat_mac.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_compat_perl_archive_tar.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 3 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_compat_plexus_archiver_tar.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 3 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_compat_solaris_tar_acl.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_compat_solaris_pax_sparse.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 30 locations with no collisions (non-hardened mode) of which are 5 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_compat_star_acl.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 2 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_compat_tar_directory.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_compat_tar_hardlink.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_compat_uudecode.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_compat_uudecode_large.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_compat_xz.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 4 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_compat_zip.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 16 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_compat_zstd.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 5 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_empty_write.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 9 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_entry.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 16 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_entry_strmode.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_extattr_freebsd.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_filter_count.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 9 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_fuzz.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 46 locations with no collisions (non-hardened mode) of which are 1 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_gnutar_filename_encoding.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 38 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_link_resolver.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_open_failure.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 5 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_open_fd.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 4 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_open_file.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 4 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_open_filename.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_pax_filename_encoding.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 29 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_pax_xattr_header.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 2 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_read_data_large.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_read_disk.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 14 locations with no collisions (non-hardened mode) of which are 2 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_read_disk_directory_traversals.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 206 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_read_disk_entry_from_file.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 3 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_read_extract.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 6 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_read_file_nonexistent.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_read_filter_compress.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 3 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_read_filter_grzip.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 4 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_read_filter_lrzip.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 4 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_read_filter_lzop.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 7 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_read_filter_lzop_multiple_parts.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 5 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_read_filter_program.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 4 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_read_filter_program_signature.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 4 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_read_filter_uudecode.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 16 locations with no collisions (non-hardened mode) of which are 1 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_read_filter_uudecode_raw.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 2 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_read_format_7zip.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 107 locations with no collisions (non-hardened mode) of which are 8 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_read_format_7zip_encryption_data.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_read_format_7zip_encryption_partially.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 3 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_read_format_7zip_encryption_header.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_read_format_7zip_malformed.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_read_format_7zip_packinfo_digests.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 3 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_read_format_ar.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_read_format_cab.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 25 locations with no collisions (non-hardened mode) of which are 1 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_read_format_cab_filename.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 7 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_read_format_cpio_afio.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 3 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_read_format_cpio_bin.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_read_format_cpio_bin_Z.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_read_format_cpio_bin_be.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_read_format_cpio_bin_bz2.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 3 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_read_format_cpio_bin_gz.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 3 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_read_format_cpio_bin_le.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_read_format_cpio_bin_lzip.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 3 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_read_format_cpio_bin_lzma.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 3 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_read_format_cpio_bin_xz.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 3 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_read_format_cpio_filename.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 79 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_read_format_cpio_odc.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_read_format_cpio_svr4_bzip2_rpm.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 3 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_read_format_cpio_svr4_gzip.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 3 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_read_format_cpio_svr4_gzip_rpm.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 3 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_read_format_cpio_svr4c_Z.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_read_format_empty.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_read_format_gtar_filename.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 45 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_read_format_gtar_gz.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 3 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_read_format_gtar_lzma.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 4 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_read_format_gtar_sparse.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 16 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_read_format_gtar_sparse_skip_entry.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_read_format_iso_Z.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_read_format_iso_multi_extent.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 6 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_read_format_iso_xorriso.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 14 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_read_format_isojoliet_bz2.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_read_format_isojoliet_long.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_read_format_isojoliet_rr.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_read_format_isojoliet_versioned.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_read_format_isorr_bz2.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 14 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_read_format_isorr_ce.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 12 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_read_format_isorr_new_bz2.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 14 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_read_format_isorr_rr_moved.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 17 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_read_format_isozisofs_bz2.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 13 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_read_format_lha.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 14 locations with no collisions (non-hardened mode) of which are 1 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_read_format_lha_bugfix_0.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_read_format_lha_filename.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 7 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_read_format_lha_filename_utf16.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 5 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_read_format_mtree.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 9 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_read_format_mtree_crash747.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 3 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_read_format_pax_bz2.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 3 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_read_format_rar.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 43 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_read_format_rar_encryption_data.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_read_format_rar_encryption_partially.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_read_format_rar_encryption_header.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_read_format_rar_filter.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_read_format_rar_invalid1.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_read_format_rar5.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 148 locations with no collisions (non-hardened mode) of which are 17 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_read_format_raw.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_read_format_tar.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 10 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_read_format_tar_concatenated.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_read_format_tar_empty_pax.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_read_format_tar_empty_filename.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_read_format_tar_empty_with_gnulabel.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_read_format_tar_filename.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 16 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_read_format_tar_invalid_pax_size.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_read_format_tbz.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 3 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_read_format_tgz.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 3 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_read_format_tlz.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 3 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_read_format_txz.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 3 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_read_format_tz.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_read_format_ustar_filename.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 37 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_read_format_warc.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_read_format_xar.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 22 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_read_format_zip.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 129 locations with no collisions (non-hardened mode) of which are 8 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_read_format_zip_7075_utf8_paths.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 4 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_read_format_zip_comment_stored.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 2 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_read_format_zip_encryption_data.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_read_format_zip_encryption_partially.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_read_format_zip_encryption_header.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_read_format_zip_extra_padding.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 2 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_read_format_zip_filename.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 87 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_read_format_zip_high_compression.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 7 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_read_format_zip_jar.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_read_format_zip_mac_metadata.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 6 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_read_format_zip_malformed.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_read_format_zip_msdos.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 4 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_read_format_zip_nested.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_read_format_zip_nofiletype.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_read_format_zip_padded.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 4 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_read_format_zip_sfx.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_read_format_zip_traditional_encryption_data.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 6 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_read_format_zip_winzip_aes.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 8 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_read_format_zip_winzip_aes_large.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 10 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_read_format_zip_zip64.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 6 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_read_format_zip_with_invalid_traditional_eocd.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_read_large.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_read_pax_xattr_rht_security_selinux.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_read_pax_xattr_schily.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_read_pax_truncated.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 16 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_read_position.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 8 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_read_set_format.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 19 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_read_too_many_filters.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 3 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_read_truncated.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 14 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_read_truncated_filter.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 21 locations with no collisions (non-hardened mode) of which are 1 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_short_writes.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 11 locations with no collisions (non-hardened mode) of which are 1 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_sparse_basic.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 59 locations with no collisions (non-hardened mode) of which are 2 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_tar_filenames.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 12 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_tar_large.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 33 locations with no collisions (non-hardened mode) of which are 7 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_ustar_filenames.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 27 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_ustar_filename_encoding.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 38 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_warn_missing_hardlink_target.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_write_disk.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 7 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_write_disk_appledouble.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_write_disk_failures.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 3 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_write_disk_fixup.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 6 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_write_disk_hardlink.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 16 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_write_disk_hfs_compression.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_write_disk_lookup.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 12 locations with no collisions (non-hardened mode) of which are 2 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_write_disk_mac_metadata.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_write_disk_no_hfs_compression.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_write_disk_perms.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 29 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_write_disk_secure.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_write_disk_secure744.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 4 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_write_disk_secure745.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_write_disk_secure746.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 2 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_write_disk_sparse.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 47 locations with no collisions (non-hardened mode) of which are 10 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_write_disk_symlink.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 30 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_write_disk_times.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_write_filter_b64encode.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 9 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_write_filter_bzip2.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 32 locations with no collisions (non-hardened mode) of which are 1 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_write_filter_compress.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 5 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_write_filter_gzip.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 27 locations with no collisions (non-hardened mode) of which are 3 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_write_filter_gzip_timestamp.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 8 locations with no collisions (non-hardened mode) of which are 1 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_write_filter_lrzip.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 6 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_write_filter_lz4.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 36 locations with no collisions (non-hardened mode) of which are 1 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_write_filter_lzip.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 19 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_write_filter_lzma.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 19 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_write_filter_lzop.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 27 locations with no collisions (non-hardened mode) of which are 4 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_write_filter_program.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 12 locations with no collisions (non-hardened mode) of which are 1 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_write_filter_uuencode.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 9 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_write_filter_xz.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 19 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_write_filter_zstd.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 19 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_write_format_7zip.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 11 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_write_format_7zip_empty.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 2 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_write_format_7zip_large.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 13 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_write_format_ar.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_write_format_cpio.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 11 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_write_format_cpio_empty.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_write_format_cpio_newc.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 17 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_write_format_cpio_odc.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 31 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_write_format_gnutar.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_write_format_gnutar_filenames.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 6 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_write_format_iso9660.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 3 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_write_format_iso9660_boot.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 12 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_write_format_iso9660_empty.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 6 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_write_format_iso9660_filename.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 54 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_write_format_iso9660_zisofs.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 23 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_write_format_mtree.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 48 locations with no collisions (non-hardened mode) of which are 4 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_write_format_mtree_absolute_path.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_write_format_mtree_classic.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 18 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_write_format_mtree_classic_indent.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 18 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_write_format_mtree_fflags.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_write_format_mtree_no_separator.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_write_format_mtree_quoted_filename.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_write_format_pax.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 5 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_write_format_raw.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_write_format_raw_b64.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_write_format_shar_empty.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_write_format_tar.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 3 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_write_format_tar_empty.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 7 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_write_format_tar_sparse.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 7 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_write_format_tar_ustar.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 55 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_write_format_tar_v7tar.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 43 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_write_format_warc.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 2 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_write_format_warc_empty.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_write_format_xar.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 6 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_write_format_xar_empty.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 3 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_write_format_zip.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 61 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_write_format_zip_compression_store.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 3 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_write_format_zip_entry_size_unset.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 3 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_write_format_zip_empty.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_write_format_zip_empty_zip64.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_write_format_zip_file.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 28 locations with no collisions (non-hardened mode) of which are 8 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_write_format_zip_file_zip64.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 28 locations with no collisions (non-hardened mode) of which are 8 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_write_format_zip_large.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 56 locations with no collisions (non-hardened mode) of which are 4 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_write_format_zip_zip64.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 2 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_write_open_memory.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 6 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_write_read_format_zip.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 42 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_xattr_platform.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 14 locations with no collisions (non-hardened mode) of which are 2 handled and 0 unhandled selects.[0m
+  CC       libarchive/test/test-test_zip_filename_encoding.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 28 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+Executing command: /bin/bash ./libtool --silent --tag=CC   --mode=link afl-clang-fast  -g -O2 -Wall -Wformat -Wformat-security -ffunction-sections -fdata-sections -fvisibility=hidden -D__LIBARCHIVE_ENABLE_VISIBILITY   -o libarchive_test libarchive/test-archive_acl.o libarchive/test-archive_check_magic.o libarchive/test-archive_cmdline.o libarchive/test-archive_cryptor.o libarchive/test-archive_digest.o libarchive/test-archive_entry.o libarchive/test-archive_entry_copy_stat.o libarchive/test-archive_entry_link_resolver.o libarchive/test-archive_entry_sparse.o libarchive/test-archive_entry_stat.o libarchive/test-archive_entry_strmode.o libarchive/test-archive_entry_xattr.o libarchive/test-archive_getdate.o libarchive/test-archive_hmac.o libarchive/test-archive_match.o libarchive/test-archive_options.o libarchive/test-archive_pack_dev.o libarchive/test-archive_pathmatch.o libarchive/test-archive_ppmd7.o libarchive/test-archive_ppmd8.o libarchive/test-archive_random.o libarchive/test-archive_rb.o libarchive/test-archive_read.o libarchive/test-archive_read_add_passphrase.o libarchive/test-archive_read_append_filter.o libarchive/test-archive_read_data_into_fd.o libarchive/test-archive_read_disk_entry_from_file.o libarchive/test-archive_read_disk_posix.o libarchive/test-archive_read_disk_set_standard_lookup.o libarchive/test-archive_read_extract.o libarchive/test-archive_read_extract2.o libarchive/test-archive_read_open_fd.o libarchive/test-archive_read_open_file.o libarchive/test-archive_read_open_filename.o libarchive/test-archive_read_open_memory.o libarchive/test-archive_read_set_format.o libarchive/test-archive_read_set_options.o libarchive/test-archive_read_support_filter_all.o libarchive/test-archive_read_support_filter_bzip2.o libarchive/test-archive_read_support_filter_by_code.o libarchive/test-archive_read_support_filter_compress.o libarchive/test-archive_read_support_filter_grzip.o libarchive/test-archive_read_support_filter_gzip.o libarchive/test-archive_read_support_filter_lrzip.o libarchive/test-archive_read_support_filter_lz4.o libarchive/test-archive_read_support_filter_lzop.o libarchive/test-archive_read_support_filter_none.o libarchive/test-archive_read_support_filter_program.o libarchive/test-archive_read_support_filter_rpm.o libarchive/test-archive_read_support_filter_uu.o libarchive/test-archive_read_support_filter_xz.o libarchive/test-archive_read_support_filter_zstd.o libarchive/test-archive_read_support_format_7zip.o libarchive/test-archive_read_support_format_all.o libarchive/test-archive_read_support_format_ar.o libarchive/test-archive_read_support_format_by_code.o libarchive/test-archive_read_support_format_cab.o libarchive/test-archive_read_support_format_cpio.o libarchive/test-archive_read_support_format_empty.o libarchive/test-archive_read_support_format_iso9660.o libarchive/test-archive_read_support_format_lha.o libarchive/test-archive_read_support_format_mtree.o libarchive/test-archive_read_support_format_rar.o libarchive/test-archive_read_support_format_rar5.o libarchive/test-archive_read_support_format_raw.o libarchive/test-archive_read_support_format_tar.o libarchive/test-archive_read_support_format_warc.o libarchive/test-archive_read_support_format_xar.o libarchive/test-archive_read_support_format_zip.o libarchive/test-archive_string.o libarchive/test-archive_string_sprintf.o libarchive/test-archive_util.o libarchive/test-archive_version_details.o libarchive/test-archive_virtual.o libarchive/test-archive_write.o libarchive/test-archive_write_disk_posix.o libarchive/test-archive_write_disk_set_standard_lookup.o libarchive/test-archive_write_open_fd.o libarchive/test-archive_write_open_file.o libarchive/test-archive_write_open_filename.o libarchive/test-archive_write_open_memory.o libarchive/test-archive_write_add_filter.o libarchive/test-archive_write_add_filter_b64encode.o libarchive/test-archive_write_add_filter_by_name.o libarchive/test-archive_write_add_filter_bzip2.o libarchive/test-archive_write_add_filter_compress.o libarchive/test-archive_write_add_filter_grzip.o libarchive/test-archive_write_add_filter_gzip.o libarchive/test-archive_write_add_filter_lrzip.o libarchive/test-archive_write_add_filter_lz4.o libarchive/test-archive_write_add_filter_lzop.o libarchive/test-archive_write_add_filter_none.o libarchive/test-archive_write_add_filter_program.o libarchive/test-archive_write_add_filter_uuencode.o libarchive/test-archive_write_add_filter_xz.o libarchive/test-archive_write_add_filter_zstd.o libarchive/test-archive_write_set_format.o libarchive/test-archive_write_set_format_7zip.o libarchive/test-archive_write_set_format_ar.o libarchive/test-archive_write_set_format_by_name.o libarchive/test-archive_write_set_format_cpio.o libarchive/test-archive_write_set_format_cpio_binary.o libarchive/test-archive_write_set_format_cpio_newc.o libarchive/test-archive_write_set_format_cpio_odc.o libarchive/test-archive_write_set_format_filter_by_ext.o libarchive/test-archive_write_set_format_iso9660.o libarchive/test-archive_write_set_format_mtree.o libarchive/test-archive_write_set_format_pax.o libarchive/test-archive_write_set_format_raw.o libarchive/test-archive_write_set_format_shar.o libarchive/test-archive_write_set_format_ustar.o libarchive/test-archive_write_set_format_v7tar.o libarchive/test-archive_write_set_format_gnutar.o libarchive/test-archive_write_set_format_warc.o libarchive/test-archive_write_set_format_xar.o libarchive/test-archive_write_set_format_zip.o libarchive/test-archive_write_set_options.o libarchive/test-archive_write_set_passphrase.o libarchive/test-filter_fork_posix.o libarchive/test-xxhash.o  libarchive/test-archive_blake2s_ref.o libarchive/test-archive_blake2sp_ref.o     test_utils/libarchive_test-test_utils.o test_utils/libarchive_test-test_main.o libarchive/test/test-read_open_memory.o libarchive/test/test-test_acl_nfs4.o libarchive/test/test-test_acl_pax.o libarchive/test/test-test_acl_platform_nfs4.o libarchive/test/test-test_acl_platform_posix1e.o libarchive/test/test-test_acl_posix1e.o libarchive/test/test-test_acl_text.o libarchive/test/test-test_archive_api_feature.o libarchive/test/test-test_archive_clear_error.o libarchive/test/test-test_archive_cmdline.o libarchive/test/test-test_archive_digest.o libarchive/test/test-test_archive_getdate.o libarchive/test/test-test_archive_match_owner.o libarchive/test/test-test_archive_match_path.o libarchive/test/test-test_archive_match_time.o libarchive/test/test-test_archive_pathmatch.o libarchive/test/test-test_archive_read_add_passphrase.o libarchive/test/test-test_archive_read_close_twice.o libarchive/test/test-test_archive_read_close_twice_open_fd.o libarchive/test/test-test_archive_read_close_twice_open_filename.o libarchive/test/test-test_archive_read_multiple_data_objects.o libarchive/test/test-test_archive_read_next_header_empty.o libarchive/test/test-test_archive_read_next_header_raw.o libarchive/test/test-test_archive_read_open2.o libarchive/test/test-test_archive_read_set_filter_option.o libarchive/test/test-test_archive_read_set_format_option.o libarchive/test/test-test_archive_read_set_option.o libarchive/test/test-test_archive_read_set_options.o libarchive/test/test-test_archive_read_support.o libarchive/test/test-test_archive_set_error.o libarchive/test/test-test_archive_string.o libarchive/test/test-test_archive_string_conversion.o libarchive/test/test-test_archive_write_add_filter_by_name.o libarchive/test/test-test_archive_write_set_filter_option.o libarchive/test/test-test_archive_write_set_format_by_name.o libarchive/test/test-test_archive_write_set_format_filter_by_ext.o libarchive/test/test-test_archive_write_set_format_option.o libarchive/test/test-test_archive_write_set_option.o libarchive/test/test-test_archive_write_set_options.o libarchive/test/test-test_archive_write_set_passphrase.o libarchive/test/test-test_bad_fd.o libarchive/test/test-test_compat_bzip2.o libarchive/test/test-test_compat_cpio.o libarchive/test/test-test_compat_gtar.o libarchive/test/test-test_compat_gzip.o libarchive/test/test-test_compat_lz4.o libarchive/test/test-test_compat_lzip.o libarchive/test/test-test_compat_lzma.o libarchive/test/test-test_compat_lzop.o libarchive/test/test-test_compat_mac.o libarchive/test/test-test_compat_perl_archive_tar.o libarchive/test/test-test_compat_plexus_archiver_tar.o libarchive/test/test-test_compat_solaris_tar_acl.o libarchive/test/test-test_compat_solaris_pax_sparse.o libarchive/test/test-test_compat_star_acl.o libarchive/test/test-test_compat_tar_directory.o libarchive/test/test-test_compat_tar_hardlink.o libarchive/test/test-test_compat_uudecode.o libarchive/test/test-test_compat_uudecode_large.o libarchive/test/test-test_compat_xz.o libarchive/test/test-test_compat_zip.o libarchive/test/test-test_compat_zstd.o libarchive/test/test-test_empty_write.o libarchive/test/test-test_entry.o libarchive/test/test-test_entry_strmode.o libarchive/test/test-test_extattr_freebsd.o libarchive/test/test-test_filter_count.o libarchive/test/test-test_fuzz.o libarchive/test/test-test_gnutar_filename_encoding.o libarchive/test/test-test_link_resolver.o libarchive/test/test-test_open_failure.o libarchive/test/test-test_open_fd.o libarchive/test/test-test_open_file.o libarchive/test/test-test_open_filename.o libarchive/test/test-test_pax_filename_encoding.o libarchive/test/test-test_pax_xattr_header.o libarchive/test/test-test_read_data_large.o libarchive/test/test-test_read_disk.o libarchive/test/test-test_read_disk_directory_traversals.o libarchive/test/test-test_read_disk_entry_from_file.o libarchive/test/test-test_read_extract.o libarchive/test/test-test_read_file_nonexistent.o libarchive/test/test-test_read_filter_compress.o libarchive/test/test-test_read_filter_grzip.o libarchive/test/test-test_read_filter_lrzip.o libarchive/test/test-test_read_filter_lzop.o libarchive/test/test-test_read_filter_lzop_multiple_parts.o libarchive/test/test-test_read_filter_program.o libarchive/test/test-test_read_filter_program_signature.o libarchive/test/test-test_read_filter_uudecode.o libarchive/test/test-test_read_filter_uudecode_raw.o libarchive/test/test-test_read_format_7zip.o libarchive/test/test-test_read_format_7zip_encryption_data.o libarchive/test/test-test_read_format_7zip_encryption_partially.o libarchive/test/test-test_read_format_7zip_encryption_header.o libarchive/test/test-test_read_format_7zip_malformed.o libarchive/test/test-test_read_format_7zip_packinfo_digests.o libarchive/test/test-test_read_format_ar.o libarchive/test/test-test_read_format_cab.o libarchive/test/test-test_read_format_cab_filename.o libarchive/test/test-test_read_format_cpio_afio.o libarchive/test/test-test_read_format_cpio_bin.o libarchive/test/test-test_read_format_cpio_bin_Z.o libarchive/test/test-test_read_format_cpio_bin_be.o libarchive/test/test-test_read_format_cpio_bin_bz2.o libarchive/test/test-test_read_format_cpio_bin_gz.o libarchive/test/test-test_read_format_cpio_bin_le.o libarchive/test/test-test_read_format_cpio_bin_lzip.o libarchive/test/test-test_read_format_cpio_bin_lzma.o libarchive/test/test-test_read_format_cpio_bin_xz.o libarchive/test/test-test_read_format_cpio_filename.o libarchive/test/test-test_read_format_cpio_odc.o libarchive/test/test-test_read_format_cpio_svr4_bzip2_rpm.o libarchive/test/test-test_read_format_cpio_svr4_gzip.o libarchive/test/test-test_read_format_cpio_svr4_gzip_rpm.o libarchive/test/test-test_read_format_cpio_svr4c_Z.o libarchive/test/test-test_read_format_empty.o libarchive/test/test-test_read_format_gtar_filename.o libarchive/test/test-test_read_format_gtar_gz.o libarchive/test/test-test_read_format_gtar_lzma.o libarchive/test/test-test_read_format_gtar_sparse.o libarchive/test/test-test_read_format_gtar_sparse_skip_entry.o libarchive/test/test-test_read_format_iso_Z.o libarchive/test/test-test_read_format_iso_multi_extent.o libarchive/test/test-test_read_format_iso_xorriso.o libarchive/test/test-test_read_format_isojoliet_bz2.o libarchive/test/test-test_read_format_isojoliet_long.o libarchive/test/test-test_read_format_isojoliet_rr.o libarchive/test/test-test_read_format_isojoliet_versioned.o libarchive/test/test-test_read_format_isorr_bz2.o libarchive/test/test-test_read_format_isorr_ce.o libarchive/test/test-test_read_format_isorr_new_bz2.o libarchive/test/test-test_read_format_isorr_rr_moved.o libarchive/test/test-test_read_format_isozisofs_bz2.o libarchive/test/test-test_read_format_lha.o libarchive/test/test-test_read_format_lha_bugfix_0.o libarchive/test/test-test_read_format_lha_filename.o libarchive/test/test-test_read_format_lha_filename_utf16.o libarchive/test/test-test_read_format_mtree.o libarchive/test/test-test_read_format_mtree_crash747.o libarchive/test/test-test_read_format_pax_bz2.o libarchive/test/test-test_read_format_rar.o libarchive/test/test-test_read_format_rar_encryption_data.o libarchive/test/test-test_read_format_rar_encryption_partially.o libarchive/test/test-test_read_format_rar_encryption_header.o libarchive/test/test-test_read_format_rar_filter.o libarchive/test/test-test_read_format_rar_invalid1.o libarchive/test/test-test_read_format_rar5.o libarchive/test/test-test_read_format_raw.o libarchive/test/test-test_read_format_tar.o libarchive/test/test-test_read_format_tar_concatenated.o libarchive/test/test-test_read_format_tar_empty_pax.o libarchive/test/test-test_read_format_tar_empty_filename.o libarchive/test/test-test_read_format_tar_empty_with_gnulabel.o libarchive/test/test-test_read_format_tar_filename.o libarchive/test/test-test_read_format_tar_invalid_pax_size.o libarchive/test/test-test_read_format_tbz.o libarchive/test/test-test_read_format_tgz.o libarchive/test/test-test_read_format_tlz.o libarchive/test/test-test_read_format_txz.o libarchive/test/test-test_read_format_tz.o libarchive/test/test-test_read_format_ustar_filename.o libarchive/test/test-test_read_format_warc.o libarchive/test/test-test_read_format_xar.o libarchive/test/test-test_read_format_zip.o libarchive/test/test-test_read_format_zip_7075_utf8_paths.o libarchive/test/test-test_read_format_zip_comment_stored.o libarchive/test/test-test_read_format_zip_encryption_data.o libarchive/test/test-test_read_format_zip_encryption_partially.o libarchive/test/test-test_read_format_zip_encryption_header.o libarchive/test/test-test_read_format_zip_extra_padding.o libarchive/test/test-test_read_format_zip_filename.o libarchive/test/test-test_read_format_zip_high_compression.o libarchive/test/test-test_read_format_zip_jar.o libarchive/test/test-test_read_format_zip_mac_metadata.o libarchive/test/test-test_read_format_zip_malformed.o libarchive/test/test-test_read_format_zip_msdos.o libarchive/test/test-test_read_format_zip_nested.o libarchive/test/test-test_read_format_zip_nofiletype.o libarchive/test/test-test_read_format_zip_padded.o libarchive/test/test-test_read_format_zip_sfx.o libarchive/test/test-test_read_format_zip_traditional_encryption_data.o libarchive/test/test-test_read_format_zip_winzip_aes.o libarchive/test/test-test_read_format_zip_winzip_aes_large.o libarchive/test/test-test_read_format_zip_zip64.o libarchive/test/test-test_read_format_zip_with_invalid_traditional_eocd.o libarchive/test/test-test_read_large.o libarchive/test/test-test_read_pax_xattr_rht_security_selinux.o libarchive/test/test-test_read_pax_xattr_schily.o libarchive/test/test-test_read_pax_truncated.o libarchive/test/test-test_read_position.o libarchive/test/test-test_read_set_format.o libarchive/test/test-test_read_too_many_filters.o libarchive/test/test-test_read_truncated.o libarchive/test/test-test_read_truncated_filter.o libarchive/test/test-test_short_writes.o libarchive/test/test-test_sparse_basic.o libarchive/test/test-test_tar_filenames.o libarchive/test/test-test_tar_large.o libarchive/test/test-test_ustar_filenames.o libarchive/test/test-test_ustar_filename_encoding.o libarchive/test/test-test_warn_missing_hardlink_target.o libarchive/test/test-test_write_disk.o libarchive/test/test-test_write_disk_appledouble.o libarchive/test/test-test_write_disk_failures.o libarchive/test/test-test_write_disk_fixup.o libarchive/test/test-test_write_disk_hardlink.o libarchive/test/test-test_write_disk_hfs_compression.o libarchive/test/test-test_write_disk_lookup.o libarchive/test/test-test_write_disk_mac_metadata.o libarchive/test/test-test_write_disk_no_hfs_compression.o libarchive/test/test-test_write_disk_perms.o libarchive/test/test-test_write_disk_secure.o libarchive/test/test-test_write_disk_secure744.o libarchive/test/test-test_write_disk_secure745.o libarchive/test/test-test_write_disk_secure746.o libarchive/test/test-test_write_disk_sparse.o libarchive/test/test-test_write_disk_symlink.o libarchive/test/test-test_write_disk_times.o libarchive/test/test-test_write_filter_b64encode.o libarchive/test/test-test_write_filter_bzip2.o libarchive/test/test-test_write_filter_compress.o libarchive/test/test-test_write_filter_gzip.o libarchive/test/test-test_write_filter_gzip_timestamp.o libarchive/test/test-test_write_filter_lrzip.o libarchive/test/test-test_write_filter_lz4.o libarchive/test/test-test_write_filter_lzip.o libarchive/test/test-test_write_filter_lzma.o libarchive/test/test-test_write_filter_lzop.o libarchive/test/test-test_write_filter_program.o libarchive/test/test-test_write_filter_uuencode.o libarchive/test/test-test_write_filter_xz.o libarchive/test/test-test_write_filter_zstd.o libarchive/test/test-test_write_format_7zip.o libarchive/test/test-test_write_format_7zip_empty.o libarchive/test/test-test_write_format_7zip_large.o libarchive/test/test-test_write_format_ar.o libarchive/test/test-test_write_format_cpio.o libarchive/test/test-test_write_format_cpio_empty.o libarchive/test/test-test_write_format_cpio_newc.o libarchive/test/test-test_write_format_cpio_odc.o libarchive/test/test-test_write_format_gnutar.o libarchive/test/test-test_write_format_gnutar_filenames.o libarchive/test/test-test_write_format_iso9660.o libarchive/test/test-test_write_format_iso9660_boot.o libarchive/test/test-test_write_format_iso9660_empty.o libarchive/test/test-test_write_format_iso9660_filename.o libarchive/test/test-test_write_format_iso9660_zisofs.o libarchive/test/test-test_write_format_mtree.o libarchive/test/test-test_write_format_mtree_absolute_path.o libarchive/test/test-test_write_format_mtree_classic.o libarchive/test/test-test_write_format_mtree_classic_indent.o libarchive/test/test-test_write_format_mtree_fflags.o libarchive/test/test-test_write_format_mtree_no_separator.o libarchive/test/test-test_write_format_mtree_quoted_filename.o libarchive/test/test-test_write_format_pax.o libarchive/test/test-test_write_format_raw.o libarchive/test/test-test_write_format_raw_b64.o libarchive/test/test-test_write_format_shar_empty.o libarchive/test/test-test_write_format_tar.o libarchive/test/test-test_write_format_tar_empty.o libarchive/test/test-test_write_format_tar_sparse.o libarchive/test/test-test_write_format_tar_ustar.o libarchive/test/test-test_write_format_tar_v7tar.o libarchive/test/test-test_write_format_warc.o libarchive/test/test-test_write_format_warc_empty.o libarchive/test/test-test_write_format_xar.o libarchive/test/test-test_write_format_xar_empty.o libarchive/test/test-test_write_format_zip.o libarchive/test/test-test_write_format_zip_compression_store.o libarchive/test/test-test_write_format_zip_entry_size_unset.o libarchive/test/test-test_write_format_zip_empty.o libarchive/test/test-test_write_format_zip_empty_zip64.o libarchive/test/test-test_write_format_zip_file.o libarchive/test/test-test_write_format_zip_file_zip64.o libarchive/test/test-test_write_format_zip_large.o libarchive/test/test-test_write_format_zip_zip64.o libarchive/test/test-test_write_open_memory.o libarchive/test/test-test_write_read_format_zip.o libarchive/test/test-test_xattr_platform.o libarchive/test/test-test_zip_filename_encoding.o  -lz  -lxml2
+  CCLD     libarchive_test
+echo "libarchive_test executed successfully."
+libarchive_test executed successfully.
+  CC       test_utils/bsdtar_test-test_utils.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 15 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       test_utils/bsdtar_test-test_main.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 798 locations with no collisions (non-hardened mode) of which are 38 handled and 0 unhandled selects.[0m
+  CC       tar/test/bsdtar_test-test_0.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 6 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       tar/test/bsdtar_test-test_basic.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 9 locations with no collisions (non-hardened mode) of which are 1 handled and 0 unhandled selects.[0m
+  CC       tar/test/bsdtar_test-test_copy.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 40 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       tar/test/bsdtar_test-test_empty_mtree.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       tar/test/bsdtar_test-test_extract_tar_Z.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       tar/test/bsdtar_test-test_extract_tar_bz2.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 4 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       tar/test/bsdtar_test-test_extract_tar_grz.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 4 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       tar/test/bsdtar_test-test_extract_tar_gz.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 4 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       tar/test/bsdtar_test-test_extract_tar_lrz.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 4 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       tar/test/bsdtar_test-test_extract_tar_lz.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 4 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       tar/test/bsdtar_test-test_extract_tar_lz4.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 4 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       tar/test/bsdtar_test-test_extract_tar_lzma.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 4 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       tar/test/bsdtar_test-test_extract_tar_lzo.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 4 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       tar/test/bsdtar_test-test_extract_tar_xz.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 4 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       tar/test/bsdtar_test-test_extract_tar_zstd.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 4 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       tar/test/bsdtar_test-test_format_newc.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       tar/test/bsdtar_test-test_help.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 5 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       tar/test/bsdtar_test-test_leading_slash.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 3 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       tar/test/bsdtar_test-test_missing_file.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       tar/test/bsdtar_test-test_option_C_mtree.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 4 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       tar/test/bsdtar_test-test_option_C_upper.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       tar/test/bsdtar_test-test_option_H_upper.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 3 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       tar/test/bsdtar_test-test_option_L_upper.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 3 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       tar/test/bsdtar_test-test_option_O_upper.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       tar/test/bsdtar_test-test_option_T_upper.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 26 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       tar/test/bsdtar_test-test_option_U_upper.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 3 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       tar/test/bsdtar_test-test_option_X_upper.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 3 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       tar/test/bsdtar_test-test_option_acls.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       tar/test/bsdtar_test-test_option_a.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       tar/test/bsdtar_test-test_option_b.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 3 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       tar/test/bsdtar_test-test_option_b64encode.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       tar/test/bsdtar_test-test_option_exclude.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       tar/test/bsdtar_test-test_option_exclude_vcs.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       tar/test/bsdtar_test-test_option_fflags.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 3 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       tar/test/bsdtar_test-test_option_gid_gname.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       tar/test/bsdtar_test-test_option_grzip.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 3 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       tar/test/bsdtar_test-test_option_ignore_zeros.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 17 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       tar/test/bsdtar_test-test_option_j.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 4 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       tar/test/bsdtar_test-test_option_k.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       tar/test/bsdtar_test-test_option_keep_newer_files.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       tar/test/bsdtar_test-test_option_lrzip.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 3 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       tar/test/bsdtar_test-test_option_lz4.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 12 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       tar/test/bsdtar_test-test_option_lzma.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 4 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       tar/test/bsdtar_test-test_option_lzop.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 4 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       tar/test/bsdtar_test-test_option_n.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       tar/test/bsdtar_test-test_option_newer_than.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       tar/test/bsdtar_test-test_option_nodump.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 3 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       tar/test/bsdtar_test-test_option_older_than.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       tar/test/bsdtar_test-test_option_passphrase.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       tar/test/bsdtar_test-test_option_q.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 3 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       tar/test/bsdtar_test-test_option_r.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 8 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       tar/test/bsdtar_test-test_option_s.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 16 locations with no collisions (non-hardened mode) of which are 2 handled and 0 unhandled selects.[0m
+  CC       tar/test/bsdtar_test-test_option_safe_writes.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 3 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       tar/test/bsdtar_test-test_option_uid_uname.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       tar/test/bsdtar_test-test_option_uuencode.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       tar/test/bsdtar_test-test_option_xattrs.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 4 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       tar/test/bsdtar_test-test_option_xz.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 4 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       tar/test/bsdtar_test-test_option_z.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 4 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       tar/test/bsdtar_test-test_option_zstd.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 12 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       tar/test/bsdtar_test-test_patterns.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 24 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       tar/test/bsdtar_test-test_print_longpath.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 4 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       tar/test/bsdtar_test-test_stdio.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       tar/test/bsdtar_test-test_strip_components.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 11 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       tar/test/bsdtar_test-test_symlink_dir.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 21 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       tar/test/bsdtar_test-test_version.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       tar/test/bsdtar_test-test_windows.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+echo "bsdtar_test executing: /bin/bash ./libtool --silent --tag=CC   --mode=link afl-clang-fast  -g -O2 -Wall -Wformat -Wformat-security -ffunction-sections -fdata-sections -fvisibility=hidden -D__LIBARCHIVE_ENABLE_VISIBILITY   -o bsdtar_test test_utils/bsdtar_test-test_utils.o test_utils/bsdtar_test-test_main.o tar/test/bsdtar_test-test_0.o tar/test/bsdtar_test-test_basic.o tar/test/bsdtar_test-test_copy.o tar/test/bsdtar_test-test_empty_mtree.o tar/test/bsdtar_test-test_extract_tar_Z.o tar/test/bsdtar_test-test_extract_tar_bz2.o tar/test/bsdtar_test-test_extract_tar_grz.o tar/test/bsdtar_test-test_extract_tar_gz.o tar/test/bsdtar_test-test_extract_tar_lrz.o tar/test/bsdtar_test-test_extract_tar_lz.o tar/test/bsdtar_test-test_extract_tar_lz4.o tar/test/bsdtar_test-test_extract_tar_lzma.o tar/test/bsdtar_test-test_extract_tar_lzo.o tar/test/bsdtar_test-test_extract_tar_xz.o tar/test/bsdtar_test-test_extract_tar_zstd.o tar/test/bsdtar_test-test_format_newc.o tar/test/bsdtar_test-test_help.o tar/test/bsdtar_test-test_leading_slash.o tar/test/bsdtar_test-test_missing_file.o tar/test/bsdtar_test-test_option_C_mtree.o tar/test/bsdtar_test-test_option_C_upper.o tar/test/bsdtar_test-test_option_H_upper.o tar/test/bsdtar_test-test_option_L_upper.o tar/test/bsdtar_test-test_option_O_upper.o tar/test/bsdtar_test-test_option_T_upper.o tar/test/bsdtar_test-test_option_U_upper.o tar/test/bsdtar_test-test_option_X_upper.o tar/test/bsdtar_test-test_option_acls.o tar/test/bsdtar_test-test_option_a.o tar/test/bsdtar_test-test_option_b.o tar/test/bsdtar_test-test_option_b64encode.o tar/test/bsdtar_test-test_option_exclude.o tar/test/bsdtar_test-test_option_exclude_vcs.o tar/test/bsdtar_test-test_option_fflags.o tar/test/bsdtar_test-test_option_gid_gname.o tar/test/bsdtar_test-test_option_grzip.o tar/test/bsdtar_test-test_option_ignore_zeros.o tar/test/bsdtar_test-test_option_j.o tar/test/bsdtar_test-test_option_k.o tar/test/bsdtar_test-test_option_keep_newer_files.o tar/test/bsdtar_test-test_option_lrzip.o tar/test/bsdtar_test-test_option_lz4.o tar/test/bsdtar_test-test_option_lzma.o tar/test/bsdtar_test-test_option_lzop.o tar/test/bsdtar_test-test_option_n.o tar/test/bsdtar_test-test_option_newer_than.o tar/test/bsdtar_test-test_option_nodump.o tar/test/bsdtar_test-test_option_older_than.o tar/test/bsdtar_test-test_option_passphrase.o tar/test/bsdtar_test-test_option_q.o tar/test/bsdtar_test-test_option_r.o tar/test/bsdtar_test-test_option_s.o tar/test/bsdtar_test-test_option_safe_writes.o tar/test/bsdtar_test-test_option_uid_uname.o tar/test/bsdtar_test-test_option_uuencode.o tar/test/bsdtar_test-test_option_xattrs.o tar/test/bsdtar_test-test_option_xz.o tar/test/bsdtar_test-test_option_z.o tar/test/bsdtar_test-test_option_zstd.o tar/test/bsdtar_test-test_patterns.o tar/test/bsdtar_test-test_print_longpath.o tar/test/bsdtar_test-test_stdio.o tar/test/bsdtar_test-test_strip_components.o tar/test/bsdtar_test-test_symlink_dir.o tar/test/bsdtar_test-test_version.o tar/test/bsdtar_test-test_windows.o  -lz  -lxml2"
+bsdtar_test executing: /bin/bash ./libtool --silent --tag=CC   --mode=link afl-clang-fast  -g -O2 -Wall -Wformat -Wformat-security -ffunction-sections -fdata-sections -fvisibility=hidden -D__LIBARCHIVE_ENABLE_VISIBILITY   -o bsdtar_test test_utils/bsdtar_test-test_utils.o test_utils/bsdtar_test-test_main.o tar/test/bsdtar_test-test_0.o tar/test/bsdtar_test-test_basic.o tar/test/bsdtar_test-test_copy.o tar/test/bsdtar_test-test_empty_mtree.o tar/test/bsdtar_test-test_extract_tar_Z.o tar/test/bsdtar_test-test_extract_tar_bz2.o tar/test/bsdtar_test-test_extract_tar_grz.o tar/test/bsdtar_test-test_extract_tar_gz.o tar/test/bsdtar_test-test_extract_tar_lrz.o tar/test/bsdtar_test-test_extract_tar_lz.o tar/test/bsdtar_test-test_extract_tar_lz4.o tar/test/bsdtar_test-test_extract_tar_lzma.o tar/test/bsdtar_test-test_extract_tar_lzo.o tar/test/bsdtar_test-test_extract_tar_xz.o tar/test/bsdtar_test-test_extract_tar_zstd.o tar/test/bsdtar_test-test_format_newc.o tar/test/bsdtar_test-test_help.o tar/test/bsdtar_test-test_leading_slash.o tar/test/bsdtar_test-test_missing_file.o tar/test/bsdtar_test-test_option_C_mtree.o tar/test/bsdtar_test-test_option_C_upper.o tar/test/bsdtar_test-test_option_H_upper.o tar/test/bsdtar_test-test_option_L_upper.o tar/test/bsdtar_test-test_option_O_upper.o tar/test/bsdtar_test-test_option_T_upper.o tar/test/bsdtar_test-test_option_U_upper.o tar/test/bsdtar_test-test_option_X_upper.o tar/test/bsdtar_test-test_option_acls.o tar/test/bsdtar_test-test_option_a.o tar/test/bsdtar_test-test_option_b.o tar/test/bsdtar_test-test_option_b64encode.o tar/test/bsdtar_test-test_option_exclude.o tar/test/bsdtar_test-test_option_exclude_vcs.o tar/test/bsdtar_test-test_option_fflags.o tar/test/bsdtar_test-test_option_gid_gname.o tar/test/bsdtar_test-test_option_grzip.o tar/test/bsdtar_test-test_option_ignore_zeros.o tar/test/bsdtar_test-test_option_j.o tar/test/bsdtar_test-test_option_k.o tar/test/bsdtar_test-test_option_keep_newer_files.o tar/test/bsdtar_test-test_option_lrzip.o tar/test/bsdtar_test-test_option_lz4.o tar/test/bsdtar_test-test_option_lzma.o tar/test/bsdtar_test-test_option_lzop.o tar/test/bsdtar_test-test_option_n.o tar/test/bsdtar_test-test_option_newer_than.o tar/test/bsdtar_test-test_option_nodump.o tar/test/bsdtar_test-test_option_older_than.o tar/test/bsdtar_test-test_option_passphrase.o tar/test/bsdtar_test-test_option_q.o tar/test/bsdtar_test-test_option_r.o tar/test/bsdtar_test-test_option_s.o tar/test/bsdtar_test-test_option_safe_writes.o tar/test/bsdtar_test-test_option_uid_uname.o tar/test/bsdtar_test-test_option_uuencode.o tar/test/bsdtar_test-test_option_xattrs.o tar/test/bsdtar_test-test_option_xz.o tar/test/bsdtar_test-test_option_z.o tar/test/bsdtar_test-test_option_zstd.o tar/test/bsdtar_test-test_patterns.o tar/test/bsdtar_test-test_print_longpath.o tar/test/bsdtar_test-test_stdio.o tar/test/bsdtar_test-test_strip_components.o tar/test/bsdtar_test-test_symlink_dir.o tar/test/bsdtar_test-test_version.o tar/test/bsdtar_test-test_windows.o  -lz  -lxml2
+  CCLD     bsdtar_test
+echo "bsdtar_text executed"
+bsdtar_text executed
+  CC       test_utils/bsdcpio_test-test_utils.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 15 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       test_utils/bsdcpio_test-test_main.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 798 locations with no collisions (non-hardened mode) of which are 38 handled and 0 unhandled selects.[0m
+  CC       cpio/bsdcpio_test-cmdline.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 53 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       cpio/test/bsdcpio_test-test_0.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 6 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       cpio/test/bsdcpio_test-test_basic.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 24 locations with no collisions (non-hardened mode) of which are 2 handled and 0 unhandled selects.[0m
+  CC       cpio/test/bsdcpio_test-test_cmdline.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       cpio/test/bsdcpio_test-test_extract_cpio_Z.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       cpio/test/bsdcpio_test-test_extract_cpio_bz2.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 4 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       cpio/test/bsdcpio_test-test_extract_cpio_grz.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 4 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       cpio/test/bsdcpio_test-test_extract_cpio_gz.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 4 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       cpio/test/bsdcpio_test-test_extract_cpio_lrz.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 4 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       cpio/test/bsdcpio_test-test_extract_cpio_lz.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 4 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       cpio/test/bsdcpio_test-test_extract_cpio_lz4.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 4 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       cpio/test/bsdcpio_test-test_extract_cpio_lzma.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 4 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       cpio/test/bsdcpio_test-test_extract_cpio_lzo.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 4 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       cpio/test/bsdcpio_test-test_extract_cpio_xz.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 4 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       cpio/test/bsdcpio_test-test_extract_cpio_zstd.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 4 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       cpio/test/bsdcpio_test-test_format_newc.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1327 locations with no collisions (non-hardened mode) of which are 21 handled and 0 unhandled selects.[0m
+  CC       cpio/test/bsdcpio_test-test_gcpio_compat.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 14 locations with no collisions (non-hardened mode) of which are 4 handled and 0 unhandled selects.[0m
+  CC       cpio/test/bsdcpio_test-test_missing_file.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       cpio/test/bsdcpio_test-test_option_0.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       cpio/test/bsdcpio_test-test_option_B_upper.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       cpio/test/bsdcpio_test-test_option_C_upper.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       cpio/test/bsdcpio_test-test_option_J_upper.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 4 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       cpio/test/bsdcpio_test-test_option_L_upper.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 3 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       cpio/test/bsdcpio_test-test_option_Z_upper.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 4 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       cpio/test/bsdcpio_test-test_option_a.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 4 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       cpio/test/bsdcpio_test-test_option_b64encode.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       cpio/test/bsdcpio_test-test_option_c.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 67 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       cpio/test/bsdcpio_test-test_option_d.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       cpio/test/bsdcpio_test-test_option_f.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       cpio/test/bsdcpio_test-test_option_grzip.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 3 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       cpio/test/bsdcpio_test-test_option_help.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 5 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       cpio/test/bsdcpio_test-test_option_l.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       cpio/test/bsdcpio_test-test_option_lrzip.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 3 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       cpio/test/bsdcpio_test-test_option_lz4.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 12 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       cpio/test/bsdcpio_test-test_option_lzma.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 4 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       cpio/test/bsdcpio_test-test_option_lzop.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 4 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       cpio/test/bsdcpio_test-test_option_m.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       cpio/test/bsdcpio_test-test_option_passphrase.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       cpio/test/bsdcpio_test-test_option_t.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       cpio/test/bsdcpio_test-test_option_u.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       cpio/test/bsdcpio_test-test_option_uuencode.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       cpio/test/bsdcpio_test-test_option_version.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       cpio/test/bsdcpio_test-test_option_xz.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 4 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       cpio/test/bsdcpio_test-test_option_y.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 4 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       cpio/test/bsdcpio_test-test_option_z.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 4 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       cpio/test/bsdcpio_test-test_option_zstd.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 12 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       cpio/test/bsdcpio_test-test_owner_parse.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 11 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       cpio/test/bsdcpio_test-test_passthrough_dotdot.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       cpio/test/bsdcpio_test-test_passthrough_reverse.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CCLD     bsdcpio_test
+  CC       test_utils/bsdcat_test-test_utils.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 15 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       test_utils/bsdcat_test-test_main.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 795 locations with no collisions (non-hardened mode) of which are 38 handled and 0 unhandled selects.[0m
+  CC       cat/test/bsdcat_test-test_0.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 5 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       cat/test/bsdcat_test-test_empty_gz.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 4 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       cat/test/bsdcat_test-test_empty_lz4.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 4 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       cat/test/bsdcat_test-test_empty_xz.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 4 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       cat/test/bsdcat_test-test_empty_zstd.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 4 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       cat/test/bsdcat_test-test_error.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       cat/test/bsdcat_test-test_error_mixed.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       cat/test/bsdcat_test-test_expand_Z.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       cat/test/bsdcat_test-test_expand_bz2.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 4 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       cat/test/bsdcat_test-test_expand_gz.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 4 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       cat/test/bsdcat_test-test_expand_lz4.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 4 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       cat/test/bsdcat_test-test_expand_mixed.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       cat/test/bsdcat_test-test_expand_plain.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       cat/test/bsdcat_test-test_expand_xz.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 4 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       cat/test/bsdcat_test-test_expand_zstd.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 4 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       cat/test/bsdcat_test-test_help.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 5 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       cat/test/bsdcat_test-test_stdin.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       cat/test/bsdcat_test-test_version.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CCLD     bsdcat_test
+  CC       test_utils/bsdunzip_test-test_utils.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 15 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       test_utils/bsdunzip_test-test_main.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 795 locations with no collisions (non-hardened mode) of which are 38 handled and 0 unhandled selects.[0m
+  CC       unzip/test/bsdunzip_test-test_0.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 4 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       unzip/test/bsdunzip_test-test_basic.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       unzip/test/bsdunzip_test-test_glob.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       unzip/test/bsdunzip_test-test_not_exist.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       unzip/test/bsdunzip_test-test_singlefile.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       unzip/test/bsdunzip_test-test_C.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       unzip/test/bsdunzip_test-test_p.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       unzip/test/bsdunzip_test-test_d.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 2 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       unzip/test/bsdunzip_test-test_j.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       unzip/test/bsdunzip_test-test_L.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       unzip/test/bsdunzip_test-test_n.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       unzip/test/bsdunzip_test-test_o.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       unzip/test/bsdunzip_test-test_q.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       unzip/test/bsdunzip_test-test_t.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       unzip/test/bsdunzip_test-test_t_bad.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       unzip/test/bsdunzip_test-test_version.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       unzip/test/bsdunzip_test-test_x.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 3 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       unzip/test/bsdunzip_test-test_Z1.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CC       unzip/test/bsdunzip_test-test_P_encryption.o
+[0;36mSanitizerCoveragePCGUARD++4.09a[0m
+[1;92m[+] [0mInstrumented 1 locations with no collisions (non-hardened mode) of which are 0 handled and 0 unhandled selects.[0m
+  CCLD     bsdunzip_test
+make[2]: Leaving directory '/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2'
+make  check-TESTS
+make[2]: Entering directory '/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2'
+make[3]: Entering directory '/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2'
+PASS: libarchive_test
+PASS: bsdtar_test
+PASS: bsdcpio_test
+PASS: bsdcat_test
+FAIL: bsdunzip_test
+============================================================================
+Testsuite summary for libarchive 3.7.2
+============================================================================
+# TOTAL: 5
+# PASS:  4
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  1
+# XPASS: 0
+# ERROR: 0
+============================================================================
+See ./test-suite.log
+Please report to libarchive-discuss@googlegroups.com
+============================================================================
+Makefile:15545: recipe for target 'test-suite.log' failed
+make[3]: Leaving directory '/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2'
+Makefile:15651: recipe for target 'check-TESTS' failed
+make[2]: Leaving directory '/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2'
+Makefile:15894: recipe for target 'check-am' failed
+make[1]: Leaving directory '/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2'
+Makefile:15897: recipe for target 'check' failed

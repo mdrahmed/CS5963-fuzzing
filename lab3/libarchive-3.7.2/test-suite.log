@@ -1,0 +1,62 @@
+========================================
+   libarchive 3.7.2: ./test-suite.log
+========================================
+
+# TOTAL: 5
+# PASS:  4
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  1
+# XPASS: 0
+# ERROR: 0
+
+.. contents:: :depth: 2
+
+FAIL: bsdunzip_test
+===================
+
+
+If tests fail or crash, details will be in:
+   /tmp/bsdunzip_test.2024-02-22T14.46.09-000
+
+Reference files will be read from: /home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/unzip/test
+Running tests on: "/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/bsdunzip"
+Exercising: bsdunzip 3.7.2 - libarchive 3.7.2 zlib/1.2.13 
+
+  0: test_0                                                          ok
+  1: test_basic                                                      ok
+  2: test_C                                                          ok
+  3: test_d_before_zipfile                                           ok
+  4: test_d_after_zipfile                                            ok
+  5: test_glob                                                       ok
+  6: test_j                                                          ok
+  7: test_L                                                          ok
+  8: test_n                                                          ok
+  9: test_not_exist                                                  ok
+ 10: test_o                                                          ok
+ 11: test_p                                                          ok
+ 12: test_P                                                          FAIL
+ 13: test_q                                                          ok
+ 14: test_singlefile                                                 ok
+ 15: test_t_bad                                                      ok
+ 16: test_t                                                          ok
+ 17: test_version                                                    ok
+ 18: test_x_single                                                   ok
+ 19: test_x_multiple                                                 ok
+ 20: test_x_multiple_with_d                                          ok
+ 21: test_Z1                                                         ok
+
+Totals:
+  Tests run:               22
+  Tests failed:             1
+  Assertions checked:   23023
+  Assertions failed:        3
+  Skips reported:           0
+
+Failing tests:
+  12: test_P (3 failures)
+
+Details for failing tests: /tmp/bsdunzip_test.2024-02-22T14.46.09-000
+
+FAIL bsdunzip_test (exit status: 1)
+
