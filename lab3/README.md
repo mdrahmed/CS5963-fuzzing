@@ -34,6 +34,25 @@ make check
 make install
 ```
 
+### Test libarchive
+To test a program, we need to find all the test programs that has been used by the `libarchive_test`, 1 easy to to find all the tests instead of understanding `Makefile.am` is to run following to see the available tests,
+```
+./liarchive_test <random name>
+# e.g.,
+./libarchive_test test
+```
+Now, you can see the available test programs created as shown in the following picture,
+
+![available tests](pics/available-test.png)
+
+Now, we can run a test program like following,
+```
+./libarchive_test test_acl_nfs4
+```
+![libarchive-test](pics/libarchive_test1)
+
+**If we want to fuzz this program then we can't put these test commands in a file and just fuzz it. Because these test programs is just a command, if we provide these as inputs then it will just create a variation of these commands. So, we need a harness file to fuzz it.**
+
 ## Instrument with afl++
 Compile again to instrument the codes,
 ```
@@ -56,7 +75,10 @@ After running make,
 It is creating the zip & tar files for testing,
 ![instrumented-check](pics/instrumented-check.png)
 
-### Fuzz
+## Fuzz
+### Fuzz `libarchive_test`
+
+### Fuzz `bsdtar`
 Now, to fuzz it,
 ```
 # download a tar file and put it to ./in folder
