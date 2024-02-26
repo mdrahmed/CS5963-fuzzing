@@ -111,10 +111,10 @@ am__append_2 = \
 	libarchive/archive_blake2s_ref.c \
 	libarchive/archive_blake2sp_ref.c
 
-#am__append_3 = libarchive/archive_disk_acl_linux.c
-#am__append_4 = libarchive/archive_disk_acl_sunos.c
-#am__append_5 = libarchive/archive_disk_acl_darwin.c
-#am__append_6 = libarchive/archive_disk_acl_freebsd.c
+am__append_3 = libarchive/archive_disk_acl_linux.c
+##am__append_4 = libarchive/archive_disk_acl_sunos.c
+##am__append_5 = libarchive/archive_disk_acl_darwin.c
+##am__append_6 = libarchive/archive_disk_acl_freebsd.c
 #am__append_7 = \
 #		tar/bsdtar_windows.h \
 #		tar/bsdtar_windows.c
@@ -350,11 +350,11 @@ am__dirstamp = $(am__leading_dot)dirstamp
 #	libarchive/filter_fork_windows.lo
 am__objects_2 = libarchive/archive_blake2s_ref.lo \
 	libarchive/archive_blake2sp_ref.lo
-#am__objects_3 =  \
-#	libarchive/archive_disk_acl_linux.lo
-#am__objects_4 = libarchive/archive_disk_acl_sunos.lo
-#am__objects_5 = libarchive/archive_disk_acl_darwin.lo
-#am__objects_6 = libarchive/archive_disk_acl_freebsd.lo
+am__objects_3 =  \
+	libarchive/archive_disk_acl_linux.lo
+##am__objects_4 = libarchive/archive_disk_acl_sunos.lo
+##am__objects_5 = libarchive/archive_disk_acl_darwin.lo
+##am__objects_6 = libarchive/archive_disk_acl_freebsd.lo
 am_libarchive_la_OBJECTS = libarchive/archive_acl.lo \
 	libarchive/archive_check_magic.lo \
 	libarchive/archive_cmdline.lo libarchive/archive_cryptor.lo \
@@ -1128,10 +1128,10 @@ am__libarchive_test_SOURCES_DIST = libarchive/archive_acl.c \
 #	libarchive/test-filter_fork_windows.$(OBJEXT)
 am__objects_15 = libarchive/test-archive_blake2s_ref.$(OBJEXT) \
 	libarchive/test-archive_blake2sp_ref.$(OBJEXT)
-#am__objects_16 = libarchive/test-archive_disk_acl_linux.$(OBJEXT)
-#am__objects_17 = libarchive/test-archive_disk_acl_sunos.$(OBJEXT)
-#am__objects_18 = libarchive/test-archive_disk_acl_darwin.$(OBJEXT)
-#am__objects_19 = libarchive/test-archive_disk_acl_freebsd.$(OBJEXT)
+am__objects_16 = libarchive/test-archive_disk_acl_linux.$(OBJEXT)
+##am__objects_17 = libarchive/test-archive_disk_acl_sunos.$(OBJEXT)
+##am__objects_18 = libarchive/test-archive_disk_acl_darwin.$(OBJEXT)
+##am__objects_19 = libarchive/test-archive_disk_acl_freebsd.$(OBJEXT)
 am__objects_20 = libarchive/test-archive_acl.$(OBJEXT) \
 	libarchive/test-archive_check_magic.$(OBJEXT) \
 	libarchive/test-archive_cmdline.$(OBJEXT) \
@@ -2597,7 +2597,7 @@ LIBARCHIVE_VERSION_NUMBER = 3007002
 LIBARCHIVE_VERSION_STRING = 3.7.2
 LIBICONV = 
 LIBOBJS = 
-LIBS = -lz  -lxml2
+LIBS = -lcrypto -lacl -llz4 -lbz2 -lz  -lxml2
 LIBSREQUIRED = libcrypto
 LIBTOOL = $(SHELL) $(top_builddir)/libtool
 LIBXML2_PC_CFLAGS = -I/usr/include/libxml2
@@ -6224,9 +6224,7 @@ libarchive/test/test-test_zip_filename_encoding.$(OBJEXT):  \
 
 libarchive_test$(EXEEXT): $(libarchive_test_OBJECTS) $(libarchive_test_DEPENDENCIES) $(EXTRA_libarchive_test_DEPENDENCIES) 
 	@rm -f libarchive_test$(EXEEXT)
-	@echo "Executing command: $(LINK) $(libarchive_test_OBJECTS) $(libarchive_test_LDADD) $(LIBS)"
 	$(AM_V_CCLD)$(LINK) $(libarchive_test_OBJECTS) $(libarchive_test_LDADD) $(LIBS)
-	echo "libarchive_test executed successfully."
 
 mostlyclean-compile:
 	-rm -f *.$(OBJEXT)

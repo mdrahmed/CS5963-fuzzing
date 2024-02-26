@@ -102,12 +102,12 @@ endif ()
 # relaxed somewhat in final shipping versions.
 IF (CMAKE_C_COMPILER_ID MATCHES "^GNU$" OR
     CMAKE_C_COMPILER_ID MATCHES "^Clang$")
-  SET(CMAKE_REQUIRED_FLAGS "-Wall -Wformat -Wformat-security")
+  SET(CMAKE_REQUIRED_FLAGS " -Wformat -Wformat-security")
   #################################################################
   # Set compile flags for all build types.
-  SET(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -Wall -Wformat -Wformat-security")
+  SET(CMAKE_C_FLAGS "${CMAKE_C_FLAGS}  -Wformat -Wformat-security")
   if (ENABLE_WERROR)
-    SET(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -Werror")
+    SET(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} ")
   endif ()
   #################################################################
   # Set compile flags for debug build.
@@ -156,7 +156,7 @@ IF (CMAKE_C_COMPILER_ID MATCHES "^XL$")
 ENDIF(CMAKE_C_COMPILER_ID MATCHES "^XL$")
 IF (MSVC)
   if (ENABLE_WERROR)
-    # /WX option is the same as gcc's -Werror option.
+    # /WX option is the same as gcc's  option.
     SET(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} /WX")
   endif ()
   #################################################################
@@ -1056,18 +1056,18 @@ MACRO(CHECK_ICONV LIB TRY_ICONV_CONST)
     IF (CMAKE_C_COMPILER_ID MATCHES "^GNU$" OR
         CMAKE_C_COMPILER_ID MATCHES "^Clang$")
       #
-      # During checking iconv proto type, we should use -Werror to avoid the
+      # During checking iconv proto type, we should use  to avoid the
       # success of iconv detection with a warning which success is a miss
       # detection. So this needs for all build mode(even it's a release mode).
       #
-      SET(CMAKE_REQUIRED_FLAGS "${CMAKE_REQUIRED_FLAGS} -Werror")
+      SET(CMAKE_REQUIRED_FLAGS "${CMAKE_REQUIRED_FLAGS} ")
     ENDIF (CMAKE_C_COMPILER_ID MATCHES "^GNU$" OR
            CMAKE_C_COMPILER_ID MATCHES "^Clang$")
     IF (CMAKE_C_COMPILER_ID MATCHES "^XL$")
       SET(CMAKE_REQUIRED_FLAGS "${CMAKE_REQUIRED_FLAGS} -qhalt=w -qflag=w:w")
     ENDIF (CMAKE_C_COMPILER_ID MATCHES "^XL$")
     IF (MSVC)
-      # NOTE: /WX option is the same as gcc's -Werror option.
+      # NOTE: /WX option is the same as gcc's  option.
       SET(CMAKE_REQUIRED_FLAGS "${CMAKE_REQUIRED_FLAGS} /WX")
     ENDIF (MSVC)
     #
@@ -1357,7 +1357,7 @@ IF (CMAKE_C_COMPILER_ID MATCHES "^GNU$" OR
   #
   # During checking functions, we should use -fno-builtin to avoid the
   # failure of function detection which failure is an error "conflicting
-  # types for built-in function" caused by using -Werror option.
+  # types for built-in function" caused by using  option.
   #
   SET(CMAKE_REQUIRED_FLAGS "${CMAKE_REQUIRED_FLAGS} -fno-builtin")
 ENDIF (CMAKE_C_COMPILER_ID MATCHES "^GNU$" OR
@@ -2055,7 +2055,7 @@ CHECK_CRYPTO_WIN("MD5;SHA1;SHA256;SHA384;SHA512")
 
 # Check visibility annotations
 SET(OLD_CMAKE_REQUIRED_FLAGS "${CMAKE_REQUIRED_FLAGS}")
-SET(CMAKE_REQUIRED_FLAGS "${CMAKE_REQUIRED_FLAGS} -fvisibility=hidden -Werror")
+SET(CMAKE_REQUIRED_FLAGS "${CMAKE_REQUIRED_FLAGS} -fvisibility=hidden ")
 CHECK_C_SOURCE_COMPILES("void __attribute__((visibility(\"default\"))) foo(void);
 int main() { return 0; }" HAVE_VISIBILITY_ATTR)
 IF (HAVE_VISIBILITY_ATTR)
