@@ -49,7 +49,7 @@ Now, we can run a test program like following,
 ```
 ./libarchive_test test_acl_nfs4
 ```
-![libarchive-test](pics/libarchive_test1)
+![libarchive-test](pics/libarchive_test1.png)
 
 **If we want to fuzz this program then we can't put these test commands in a file and just fuzz it. Because these test programs is just a command, if we provide these as inputs then it will just create a variation of these commands. So, we need a harness file to fuzz it.**
 
@@ -77,6 +77,62 @@ It is creating the zip & tar files for testing,
 
 ## Fuzz
 ### Fuzz `libarchive_test`
+#### Test using `libarchive_fuzzer.cc` of `oss-fuzz` 
+Using the `build.sh` to build the harness `libarchive_fuzzer`. [Here is the details](https://github.com/google/oss-fuzz/tree/a40cd76e1469f5fd5337924ba1247607d5e6b80f/projects/libarchive)
+
+```
+sudo apt-get install zip sharutils
+sudo apt-get install liblzo2-dev
+sudo apt-get install libssl-dev  # For OpenSSL
+sudo apt-get install libacl1-dev
+sudo apt-get install liblz4-dev
+sudo apt-get install libbz2-dev
+sudo apt-get install liblzma-dev
+```
+or, just run this `sudo apt-get install liblzo2-dev libssl-dev libacl1-dev liblz4-dev libbz2-dev sharutils liblzma-dev`
+```
+echo '$(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(libarchive_test_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT libarchive/test-archive_write.o -MD -MP -MF libarchive/$(DEPDIR)/test-archive_write.Tpo -c -o libarchive/test-archive_write.o `test -f 'libarchive/archive_write.c' || echo '$(srcdir)/'`libarchive/archive_write.c'
+```
+
+And do following to set the environment,
+```
+cd libarchive-3.7.2
+export SRC='.'
+mkdir OUT
+export OUT='OUT'
+
+# copy the libarchive_fuzzer.cc and build.sh from the oss-fuzz repo
+```
+
+Now, just run following,
+```
+sh build.sh
+```
+
+To clean everything, do this, `rm -r build2/ OUT/ uudecode/ pocs/`
+
+Now, fuzz it like following,
+```
+afl-fuzz -i in/ -D -o out/ OUT/libarchive_fuzzer @@
+```
+
+I got the following which is asking for 1 valid input is because I didn't provide a valid input, 
+![one-valid-input-error](pics/one-valid-input-error.png)
+
+Now, I called the harness program from `main` like following,
+```
+#define SIZE 1000
+
+int main(){
+	const uint8_t input[SIZE] = {0};
+	ssize_t length;
+	length = read(STDIN_FILENO, (char*)input, SIZE);
+
+	LLVMFuzzerTestOneInput(input, length);	
+}
+```
+
+Now, when I fuzzed it again then it worked fine and got the absolute coverage.
 
 ### Fuzz `bsdtar`
 Now, to fuzz it,
