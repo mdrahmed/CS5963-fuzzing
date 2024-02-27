@@ -1,8 +1,8 @@
-export FUZZ_INTROSPECTOR_CONFIG=$SRC/fuzz_introspector_exclusion.config
-cat > $FUZZ_INTROSPECTOR_CONFIG <<EOF
-FILES_TO_AVOID
-libxml2
-EOF
+#export FUZZ_INTROSPECTOR_CONFIG=$SRC/fuzz_introspector_exclusion.config
+#cat > $FUZZ_INTROSPECTOR_CONFIG <<EOF
+#FILES_TO_AVOID
+#libxml2
+#EOF
 
 
 sed -i 's/-Wall//g' ./CMakeLists.txt
@@ -19,7 +19,7 @@ cp ../libarchive/contrib/oss-fuzz/corpus.zip \
 
 #$CXX $CXXFLAGS -I../libarchive     ../libarchive_fuzzer.cc -o ../OUT/libarchive_fuzzer     $LIB_FUZZING_ENGINE ./libarchive/libarchive.a     -Wl,-Bstatic -llzo2 -Wl,-Bdynamic -lcrypto -lacl -llzma -llz4 -lbz2 -lz ${DEPS}/libxml2.a
 
-$CXX $CXXFLAGS -I../libarchive     ../libarchive_fuzzer.cc -o ../OUT/libarchive_fuzzer     $LIB_FUZZING_ENGINE ./libarchive/libarchive.a     -Wl,-Bstatic -llzo2 -Wl,-Bdynamic -lcrypto -lacl -llzma -llz4 -lbz2 -lz ../deps/libxml2.a
+$CXX $CXXFLAGS -I../libarchive     ../harness.cpp -o ../OUT/harness     $LIB_FUZZING_ENGINE ./libarchive/libarchive.a     -Wl,-Bstatic -llzo2 -Wl,-Bdynamic -lcrypto -lacl -llzma -llz4 -lbz2 -lz ../deps/libxml2.a
 
 cd .. # moving to src dir
 

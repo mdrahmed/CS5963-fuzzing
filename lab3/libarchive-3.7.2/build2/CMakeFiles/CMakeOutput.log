@@ -1,21 +1,21 @@
 Checking support for ARCHIVE_CRYPTO_MD5_LIBC failed with the following output:
 Change Dir: '/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp'
 
-Run Build Command(s): /snap/cmake/1366/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_1e8ea/fast
-/usr/bin/make  -f CMakeFiles/cmTC_1e8ea.dir/build.make CMakeFiles/cmTC_1e8ea.dir/build
+Run Build Command(s): /snap/cmake/1366/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_66f5d/fast
+/usr/bin/make  -f CMakeFiles/cmTC_66f5d.dir/build.make CMakeFiles/cmTC_66f5d.dir/build
 make[1]: Entering directory '/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_1e8ea.dir/check_crypto_md.c.o
-/usr/local/bin/afl-clang-fast  -I/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2 -I/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/libarchive -I/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp -Wformat -Wformat-security -ffunction-sections -fdata-sections  -MD -MT CMakeFiles/cmTC_1e8ea.dir/check_crypto_md.c.o -MF CMakeFiles/cmTC_1e8ea.dir/check_crypto_md.c.o.d -o CMakeFiles/cmTC_1e8ea.dir/check_crypto_md.c.o -c /home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp/check_crypto_md.c
+Building C object CMakeFiles/cmTC_66f5d.dir/check_crypto_md.c.o
+/usr/local/bin/afl-clang-fast  -I/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2 -I/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/libarchive -I/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp -Wformat -Wformat-security -ffunction-sections -fdata-sections  -MD -MT CMakeFiles/cmTC_66f5d.dir/check_crypto_md.c.o -MF CMakeFiles/cmTC_66f5d.dir/check_crypto_md.c.o.d -o CMakeFiles/cmTC_66f5d.dir/check_crypto_md.c.o -c /home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp/check_crypto_md.c
 In file included from /home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp/check_crypto_md.c:1437:
 /home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/libarchive/archive_digest_private.h:64:10: fatal error: 'md5.h' file not found
 #include <md5.h>
          ^~~~~~~
 1 error generated.
-CMakeFiles/cmTC_1e8ea.dir/build.make:78: recipe for target 'CMakeFiles/cmTC_1e8ea.dir/check_crypto_md.c.o' failed
-make[1]: *** [CMakeFiles/cmTC_1e8ea.dir/check_crypto_md.c.o] Error 1
+CMakeFiles/cmTC_66f5d.dir/build.make:78: recipe for target 'CMakeFiles/cmTC_66f5d.dir/check_crypto_md.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_66f5d.dir/check_crypto_md.c.o] Error 1
 make[1]: Leaving directory '/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp'
-Makefile:127: recipe for target 'cmTC_1e8ea/fast' failed
-make: *** [cmTC_1e8ea/fast] Error 2
+Makefile:127: recipe for target 'cmTC_66f5d/fast' failed
+make: *** [cmTC_66f5d/fast] Error 2
 
 
 Source file was:
@@ -3005,21 +3005,21 @@ main(int argc, char **argv)
 Checking support for ARCHIVE_CRYPTO_RMD160_LIBC failed with the following output:
 Change Dir: '/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp'
 
-Run Build Command(s): /snap/cmake/1366/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_95e19/fast
-/usr/bin/make  -f CMakeFiles/cmTC_95e19.dir/build.make CMakeFiles/cmTC_95e19.dir/build
+Run Build Command(s): /snap/cmake/1366/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_4e247/fast
+/usr/bin/make  -f CMakeFiles/cmTC_4e247.dir/build.make CMakeFiles/cmTC_4e247.dir/build
 make[1]: Entering directory '/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_95e19.dir/check_crypto_md.c.o
-/usr/local/bin/afl-clang-fast  -I/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2 -I/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/libarchive -I/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp -Wformat -Wformat-security -ffunction-sections -fdata-sections  -MD -MT CMakeFiles/cmTC_95e19.dir/check_crypto_md.c.o -MF CMakeFiles/cmTC_95e19.dir/check_crypto_md.c.o.d -o CMakeFiles/cmTC_95e19.dir/check_crypto_md.c.o -c /home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp/check_crypto_md.c
+Building C object CMakeFiles/cmTC_4e247.dir/check_crypto_md.c.o
+/usr/local/bin/afl-clang-fast  -I/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2 -I/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/libarchive -I/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp -Wformat -Wformat-security -ffunction-sections -fdata-sections  -MD -MT CMakeFiles/cmTC_4e247.dir/check_crypto_md.c.o -MF CMakeFiles/cmTC_4e247.dir/check_crypto_md.c.o.d -o CMakeFiles/cmTC_4e247.dir/check_crypto_md.c.o -c /home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp/check_crypto_md.c
 In file included from /home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp/check_crypto_md.c:1437:
 /home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/libarchive/archive_digest_private.h:67:10: fatal error: 'rmd160.h' file not found
 #include <rmd160.h>
          ^~~~~~~~~~
 1 error generated.
-CMakeFiles/cmTC_95e19.dir/build.make:78: recipe for target 'CMakeFiles/cmTC_95e19.dir/check_crypto_md.c.o' failed
-make[1]: *** [CMakeFiles/cmTC_95e19.dir/check_crypto_md.c.o] Error 1
+CMakeFiles/cmTC_4e247.dir/build.make:78: recipe for target 'CMakeFiles/cmTC_4e247.dir/check_crypto_md.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_4e247.dir/check_crypto_md.c.o] Error 1
 make[1]: Leaving directory '/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp'
-Makefile:127: recipe for target 'cmTC_95e19/fast' failed
-make: *** [cmTC_95e19/fast] Error 2
+Makefile:127: recipe for target 'cmTC_4e247/fast' failed
+make: *** [cmTC_4e247/fast] Error 2
 
 
 Source file was:
@@ -6009,21 +6009,21 @@ main(int argc, char **argv)
 Checking support for ARCHIVE_CRYPTO_SHA1_LIBC failed with the following output:
 Change Dir: '/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp'
 
-Run Build Command(s): /snap/cmake/1366/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_26c87/fast
-/usr/bin/make  -f CMakeFiles/cmTC_26c87.dir/build.make CMakeFiles/cmTC_26c87.dir/build
+Run Build Command(s): /snap/cmake/1366/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_37139/fast
+/usr/bin/make  -f CMakeFiles/cmTC_37139.dir/build.make CMakeFiles/cmTC_37139.dir/build
 make[1]: Entering directory '/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_26c87.dir/check_crypto_md.c.o
-/usr/local/bin/afl-clang-fast  -I/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2 -I/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/libarchive -I/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp -Wformat -Wformat-security -ffunction-sections -fdata-sections  -MD -MT CMakeFiles/cmTC_26c87.dir/check_crypto_md.c.o -MF CMakeFiles/cmTC_26c87.dir/check_crypto_md.c.o.d -o CMakeFiles/cmTC_26c87.dir/check_crypto_md.c.o -c /home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp/check_crypto_md.c
+Building C object CMakeFiles/cmTC_37139.dir/check_crypto_md.c.o
+/usr/local/bin/afl-clang-fast  -I/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2 -I/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/libarchive -I/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp -Wformat -Wformat-security -ffunction-sections -fdata-sections  -MD -MT CMakeFiles/cmTC_37139.dir/check_crypto_md.c.o -MF CMakeFiles/cmTC_37139.dir/check_crypto_md.c.o.d -o CMakeFiles/cmTC_37139.dir/check_crypto_md.c.o -c /home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp/check_crypto_md.c
 In file included from /home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp/check_crypto_md.c:1437:
 /home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/libarchive/archive_digest_private.h:70:10: fatal error: 'sha1.h' file not found
 #include <sha1.h>
          ^~~~~~~~
 1 error generated.
-CMakeFiles/cmTC_26c87.dir/build.make:78: recipe for target 'CMakeFiles/cmTC_26c87.dir/check_crypto_md.c.o' failed
-make[1]: *** [CMakeFiles/cmTC_26c87.dir/check_crypto_md.c.o] Error 1
+CMakeFiles/cmTC_37139.dir/build.make:78: recipe for target 'CMakeFiles/cmTC_37139.dir/check_crypto_md.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_37139.dir/check_crypto_md.c.o] Error 1
 make[1]: Leaving directory '/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp'
-Makefile:127: recipe for target 'cmTC_26c87/fast' failed
-make: *** [cmTC_26c87/fast] Error 2
+Makefile:127: recipe for target 'cmTC_37139/fast' failed
+make: *** [cmTC_37139/fast] Error 2
 
 
 Source file was:
@@ -9013,21 +9013,21 @@ main(int argc, char **argv)
 Checking support for ARCHIVE_CRYPTO_SHA256_LIBC failed with the following output:
 Change Dir: '/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp'
 
-Run Build Command(s): /snap/cmake/1366/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_6cc4b/fast
-/usr/bin/make  -f CMakeFiles/cmTC_6cc4b.dir/build.make CMakeFiles/cmTC_6cc4b.dir/build
+Run Build Command(s): /snap/cmake/1366/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_35e98/fast
+/usr/bin/make  -f CMakeFiles/cmTC_35e98.dir/build.make CMakeFiles/cmTC_35e98.dir/build
 make[1]: Entering directory '/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_6cc4b.dir/check_crypto_md.c.o
-/usr/local/bin/afl-clang-fast  -I/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2 -I/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/libarchive -I/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp -Wformat -Wformat-security -ffunction-sections -fdata-sections  -MD -MT CMakeFiles/cmTC_6cc4b.dir/check_crypto_md.c.o -MF CMakeFiles/cmTC_6cc4b.dir/check_crypto_md.c.o.d -o CMakeFiles/cmTC_6cc4b.dir/check_crypto_md.c.o -c /home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp/check_crypto_md.c
+Building C object CMakeFiles/cmTC_35e98.dir/check_crypto_md.c.o
+/usr/local/bin/afl-clang-fast  -I/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2 -I/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/libarchive -I/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp -Wformat -Wformat-security -ffunction-sections -fdata-sections  -MD -MT CMakeFiles/cmTC_35e98.dir/check_crypto_md.c.o -MF CMakeFiles/cmTC_35e98.dir/check_crypto_md.c.o.d -o CMakeFiles/cmTC_35e98.dir/check_crypto_md.c.o -c /home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp/check_crypto_md.c
 In file included from /home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp/check_crypto_md.c:1437:
 /home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/libarchive/archive_digest_private.h:81:10: fatal error: 'sha2.h' file not found
 #include <sha2.h>
          ^~~~~~~~
 1 error generated.
-CMakeFiles/cmTC_6cc4b.dir/build.make:78: recipe for target 'CMakeFiles/cmTC_6cc4b.dir/check_crypto_md.c.o' failed
-make[1]: *** [CMakeFiles/cmTC_6cc4b.dir/check_crypto_md.c.o] Error 1
+CMakeFiles/cmTC_35e98.dir/build.make:78: recipe for target 'CMakeFiles/cmTC_35e98.dir/check_crypto_md.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_35e98.dir/check_crypto_md.c.o] Error 1
 make[1]: Leaving directory '/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp'
-Makefile:127: recipe for target 'cmTC_6cc4b/fast' failed
-make: *** [cmTC_6cc4b/fast] Error 2
+Makefile:127: recipe for target 'cmTC_35e98/fast' failed
+make: *** [cmTC_35e98/fast] Error 2
 
 
 Source file was:
@@ -12017,21 +12017,21 @@ main(int argc, char **argv)
 Checking support for ARCHIVE_CRYPTO_SHA384_LIBC failed with the following output:
 Change Dir: '/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp'
 
-Run Build Command(s): /snap/cmake/1366/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_bf7f3/fast
-/usr/bin/make  -f CMakeFiles/cmTC_bf7f3.dir/build.make CMakeFiles/cmTC_bf7f3.dir/build
+Run Build Command(s): /snap/cmake/1366/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_42fef/fast
+/usr/bin/make  -f CMakeFiles/cmTC_42fef.dir/build.make CMakeFiles/cmTC_42fef.dir/build
 make[1]: Entering directory '/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_bf7f3.dir/check_crypto_md.c.o
-/usr/local/bin/afl-clang-fast  -I/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2 -I/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/libarchive -I/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp -Wformat -Wformat-security -ffunction-sections -fdata-sections  -MD -MT CMakeFiles/cmTC_bf7f3.dir/check_crypto_md.c.o -MF CMakeFiles/cmTC_bf7f3.dir/check_crypto_md.c.o.d -o CMakeFiles/cmTC_bf7f3.dir/check_crypto_md.c.o -c /home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp/check_crypto_md.c
+Building C object CMakeFiles/cmTC_42fef.dir/check_crypto_md.c.o
+/usr/local/bin/afl-clang-fast  -I/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2 -I/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/libarchive -I/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp -Wformat -Wformat-security -ffunction-sections -fdata-sections  -MD -MT CMakeFiles/cmTC_42fef.dir/check_crypto_md.c.o -MF CMakeFiles/cmTC_42fef.dir/check_crypto_md.c.o.d -o CMakeFiles/cmTC_42fef.dir/check_crypto_md.c.o -c /home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp/check_crypto_md.c
 In file included from /home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp/check_crypto_md.c:1437:
 /home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/libarchive/archive_digest_private.h:81:10: fatal error: 'sha2.h' file not found
 #include <sha2.h>
          ^~~~~~~~
 1 error generated.
-CMakeFiles/cmTC_bf7f3.dir/build.make:78: recipe for target 'CMakeFiles/cmTC_bf7f3.dir/check_crypto_md.c.o' failed
-make[1]: *** [CMakeFiles/cmTC_bf7f3.dir/check_crypto_md.c.o] Error 1
+CMakeFiles/cmTC_42fef.dir/build.make:78: recipe for target 'CMakeFiles/cmTC_42fef.dir/check_crypto_md.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_42fef.dir/check_crypto_md.c.o] Error 1
 make[1]: Leaving directory '/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp'
-Makefile:127: recipe for target 'cmTC_bf7f3/fast' failed
-make: *** [cmTC_bf7f3/fast] Error 2
+Makefile:127: recipe for target 'cmTC_42fef/fast' failed
+make: *** [cmTC_42fef/fast] Error 2
 
 
 Source file was:
@@ -15021,21 +15021,21 @@ main(int argc, char **argv)
 Checking support for ARCHIVE_CRYPTO_SHA512_LIBC failed with the following output:
 Change Dir: '/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp'
 
-Run Build Command(s): /snap/cmake/1366/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_3a98d/fast
-/usr/bin/make  -f CMakeFiles/cmTC_3a98d.dir/build.make CMakeFiles/cmTC_3a98d.dir/build
+Run Build Command(s): /snap/cmake/1366/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_c5fcb/fast
+/usr/bin/make  -f CMakeFiles/cmTC_c5fcb.dir/build.make CMakeFiles/cmTC_c5fcb.dir/build
 make[1]: Entering directory '/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_3a98d.dir/check_crypto_md.c.o
-/usr/local/bin/afl-clang-fast  -I/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2 -I/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/libarchive -I/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp -Wformat -Wformat-security -ffunction-sections -fdata-sections  -MD -MT CMakeFiles/cmTC_3a98d.dir/check_crypto_md.c.o -MF CMakeFiles/cmTC_3a98d.dir/check_crypto_md.c.o.d -o CMakeFiles/cmTC_3a98d.dir/check_crypto_md.c.o -c /home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp/check_crypto_md.c
+Building C object CMakeFiles/cmTC_c5fcb.dir/check_crypto_md.c.o
+/usr/local/bin/afl-clang-fast  -I/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2 -I/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/libarchive -I/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp -Wformat -Wformat-security -ffunction-sections -fdata-sections  -MD -MT CMakeFiles/cmTC_c5fcb.dir/check_crypto_md.c.o -MF CMakeFiles/cmTC_c5fcb.dir/check_crypto_md.c.o.d -o CMakeFiles/cmTC_c5fcb.dir/check_crypto_md.c.o -c /home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp/check_crypto_md.c
 In file included from /home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp/check_crypto_md.c:1437:
 /home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/libarchive/archive_digest_private.h:81:10: fatal error: 'sha2.h' file not found
 #include <sha2.h>
          ^~~~~~~~
 1 error generated.
-CMakeFiles/cmTC_3a98d.dir/build.make:78: recipe for target 'CMakeFiles/cmTC_3a98d.dir/check_crypto_md.c.o' failed
-make[1]: *** [CMakeFiles/cmTC_3a98d.dir/check_crypto_md.c.o] Error 1
+CMakeFiles/cmTC_c5fcb.dir/build.make:78: recipe for target 'CMakeFiles/cmTC_c5fcb.dir/check_crypto_md.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_c5fcb.dir/check_crypto_md.c.o] Error 1
 make[1]: Leaving directory '/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp'
-Makefile:127: recipe for target 'cmTC_3a98d/fast' failed
-make: *** [cmTC_3a98d/fast] Error 2
+Makefile:127: recipe for target 'cmTC_c5fcb/fast' failed
+make: *** [cmTC_c5fcb/fast] Error 2
 
 
 Source file was:
@@ -18025,21 +18025,21 @@ main(int argc, char **argv)
 Checking support for ARCHIVE_CRYPTO_SHA256_LIBC2 failed with the following output:
 Change Dir: '/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp'
 
-Run Build Command(s): /snap/cmake/1366/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_99bce/fast
-/usr/bin/make  -f CMakeFiles/cmTC_99bce.dir/build.make CMakeFiles/cmTC_99bce.dir/build
+Run Build Command(s): /snap/cmake/1366/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_b4ef2/fast
+/usr/bin/make  -f CMakeFiles/cmTC_b4ef2.dir/build.make CMakeFiles/cmTC_b4ef2.dir/build
 make[1]: Entering directory '/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_99bce.dir/check_crypto_md.c.o
-/usr/local/bin/afl-clang-fast  -I/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2 -I/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/libarchive -I/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp -Wformat -Wformat-security -ffunction-sections -fdata-sections  -MD -MT CMakeFiles/cmTC_99bce.dir/check_crypto_md.c.o -MF CMakeFiles/cmTC_99bce.dir/check_crypto_md.c.o.d -o CMakeFiles/cmTC_99bce.dir/check_crypto_md.c.o -c /home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp/check_crypto_md.c
+Building C object CMakeFiles/cmTC_b4ef2.dir/check_crypto_md.c.o
+/usr/local/bin/afl-clang-fast  -I/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2 -I/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/libarchive -I/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp -Wformat -Wformat-security -ffunction-sections -fdata-sections  -MD -MT CMakeFiles/cmTC_b4ef2.dir/check_crypto_md.c.o -MF CMakeFiles/cmTC_b4ef2.dir/check_crypto_md.c.o.d -o CMakeFiles/cmTC_b4ef2.dir/check_crypto_md.c.o -c /home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp/check_crypto_md.c
 In file included from /home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp/check_crypto_md.c:1437:
 /home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/libarchive/archive_digest_private.h:81:10: fatal error: 'sha2.h' file not found
 #include <sha2.h>
          ^~~~~~~~
 1 error generated.
-CMakeFiles/cmTC_99bce.dir/build.make:78: recipe for target 'CMakeFiles/cmTC_99bce.dir/check_crypto_md.c.o' failed
-make[1]: *** [CMakeFiles/cmTC_99bce.dir/check_crypto_md.c.o] Error 1
+CMakeFiles/cmTC_b4ef2.dir/build.make:78: recipe for target 'CMakeFiles/cmTC_b4ef2.dir/check_crypto_md.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_b4ef2.dir/check_crypto_md.c.o] Error 1
 make[1]: Leaving directory '/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp'
-Makefile:127: recipe for target 'cmTC_99bce/fast' failed
-make: *** [cmTC_99bce/fast] Error 2
+Makefile:127: recipe for target 'cmTC_b4ef2/fast' failed
+make: *** [cmTC_b4ef2/fast] Error 2
 
 
 Source file was:
@@ -21029,21 +21029,21 @@ main(int argc, char **argv)
 Checking support for ARCHIVE_CRYPTO_SHA384_LIBC2 failed with the following output:
 Change Dir: '/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp'
 
-Run Build Command(s): /snap/cmake/1366/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_48844/fast
-/usr/bin/make  -f CMakeFiles/cmTC_48844.dir/build.make CMakeFiles/cmTC_48844.dir/build
+Run Build Command(s): /snap/cmake/1366/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_fb0b4/fast
+/usr/bin/make  -f CMakeFiles/cmTC_fb0b4.dir/build.make CMakeFiles/cmTC_fb0b4.dir/build
 make[1]: Entering directory '/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_48844.dir/check_crypto_md.c.o
-/usr/local/bin/afl-clang-fast  -I/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2 -I/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/libarchive -I/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp -Wformat -Wformat-security -ffunction-sections -fdata-sections  -MD -MT CMakeFiles/cmTC_48844.dir/check_crypto_md.c.o -MF CMakeFiles/cmTC_48844.dir/check_crypto_md.c.o.d -o CMakeFiles/cmTC_48844.dir/check_crypto_md.c.o -c /home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp/check_crypto_md.c
+Building C object CMakeFiles/cmTC_fb0b4.dir/check_crypto_md.c.o
+/usr/local/bin/afl-clang-fast  -I/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2 -I/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/libarchive -I/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp -Wformat -Wformat-security -ffunction-sections -fdata-sections  -MD -MT CMakeFiles/cmTC_fb0b4.dir/check_crypto_md.c.o -MF CMakeFiles/cmTC_fb0b4.dir/check_crypto_md.c.o.d -o CMakeFiles/cmTC_fb0b4.dir/check_crypto_md.c.o -c /home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp/check_crypto_md.c
 In file included from /home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp/check_crypto_md.c:1437:
 /home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/libarchive/archive_digest_private.h:81:10: fatal error: 'sha2.h' file not found
 #include <sha2.h>
          ^~~~~~~~
 1 error generated.
-CMakeFiles/cmTC_48844.dir/build.make:78: recipe for target 'CMakeFiles/cmTC_48844.dir/check_crypto_md.c.o' failed
-make[1]: *** [CMakeFiles/cmTC_48844.dir/check_crypto_md.c.o] Error 1
+CMakeFiles/cmTC_fb0b4.dir/build.make:78: recipe for target 'CMakeFiles/cmTC_fb0b4.dir/check_crypto_md.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_fb0b4.dir/check_crypto_md.c.o] Error 1
 make[1]: Leaving directory '/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp'
-Makefile:127: recipe for target 'cmTC_48844/fast' failed
-make: *** [cmTC_48844/fast] Error 2
+Makefile:127: recipe for target 'cmTC_fb0b4/fast' failed
+make: *** [cmTC_fb0b4/fast] Error 2
 
 
 Source file was:
@@ -24033,21 +24033,21 @@ main(int argc, char **argv)
 Checking support for ARCHIVE_CRYPTO_SHA512_LIBC2 failed with the following output:
 Change Dir: '/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp'
 
-Run Build Command(s): /snap/cmake/1366/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_d4af7/fast
-/usr/bin/make  -f CMakeFiles/cmTC_d4af7.dir/build.make CMakeFiles/cmTC_d4af7.dir/build
+Run Build Command(s): /snap/cmake/1366/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_9ee30/fast
+/usr/bin/make  -f CMakeFiles/cmTC_9ee30.dir/build.make CMakeFiles/cmTC_9ee30.dir/build
 make[1]: Entering directory '/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_d4af7.dir/check_crypto_md.c.o
-/usr/local/bin/afl-clang-fast  -I/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2 -I/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/libarchive -I/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp -Wformat -Wformat-security -ffunction-sections -fdata-sections  -MD -MT CMakeFiles/cmTC_d4af7.dir/check_crypto_md.c.o -MF CMakeFiles/cmTC_d4af7.dir/check_crypto_md.c.o.d -o CMakeFiles/cmTC_d4af7.dir/check_crypto_md.c.o -c /home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp/check_crypto_md.c
+Building C object CMakeFiles/cmTC_9ee30.dir/check_crypto_md.c.o
+/usr/local/bin/afl-clang-fast  -I/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2 -I/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/libarchive -I/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp -Wformat -Wformat-security -ffunction-sections -fdata-sections  -MD -MT CMakeFiles/cmTC_9ee30.dir/check_crypto_md.c.o -MF CMakeFiles/cmTC_9ee30.dir/check_crypto_md.c.o.d -o CMakeFiles/cmTC_9ee30.dir/check_crypto_md.c.o -c /home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp/check_crypto_md.c
 In file included from /home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp/check_crypto_md.c:1437:
 /home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/libarchive/archive_digest_private.h:81:10: fatal error: 'sha2.h' file not found
 #include <sha2.h>
          ^~~~~~~~
 1 error generated.
-CMakeFiles/cmTC_d4af7.dir/build.make:78: recipe for target 'CMakeFiles/cmTC_d4af7.dir/check_crypto_md.c.o' failed
-make[1]: *** [CMakeFiles/cmTC_d4af7.dir/check_crypto_md.c.o] Error 1
+CMakeFiles/cmTC_9ee30.dir/build.make:78: recipe for target 'CMakeFiles/cmTC_9ee30.dir/check_crypto_md.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_9ee30.dir/check_crypto_md.c.o] Error 1
 make[1]: Leaving directory '/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp'
-Makefile:127: recipe for target 'cmTC_d4af7/fast' failed
-make: *** [cmTC_d4af7/fast] Error 2
+Makefile:127: recipe for target 'cmTC_9ee30/fast' failed
+make: *** [cmTC_9ee30/fast] Error 2
 
 
 Source file was:
@@ -27037,21 +27037,21 @@ main(int argc, char **argv)
 Checking support for ARCHIVE_CRYPTO_SHA256_LIBC3 failed with the following output:
 Change Dir: '/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp'
 
-Run Build Command(s): /snap/cmake/1366/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_94e72/fast
-/usr/bin/make  -f CMakeFiles/cmTC_94e72.dir/build.make CMakeFiles/cmTC_94e72.dir/build
+Run Build Command(s): /snap/cmake/1366/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_7be7e/fast
+/usr/bin/make  -f CMakeFiles/cmTC_7be7e.dir/build.make CMakeFiles/cmTC_7be7e.dir/build
 make[1]: Entering directory '/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_94e72.dir/check_crypto_md.c.o
-/usr/local/bin/afl-clang-fast  -I/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2 -I/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/libarchive -I/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp -Wformat -Wformat-security -ffunction-sections -fdata-sections  -MD -MT CMakeFiles/cmTC_94e72.dir/check_crypto_md.c.o -MF CMakeFiles/cmTC_94e72.dir/check_crypto_md.c.o.d -o CMakeFiles/cmTC_94e72.dir/check_crypto_md.c.o -c /home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp/check_crypto_md.c
+Building C object CMakeFiles/cmTC_7be7e.dir/check_crypto_md.c.o
+/usr/local/bin/afl-clang-fast  -I/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2 -I/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/libarchive -I/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp -Wformat -Wformat-security -ffunction-sections -fdata-sections  -MD -MT CMakeFiles/cmTC_7be7e.dir/check_crypto_md.c.o -MF CMakeFiles/cmTC_7be7e.dir/check_crypto_md.c.o.d -o CMakeFiles/cmTC_7be7e.dir/check_crypto_md.c.o -c /home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp/check_crypto_md.c
 In file included from /home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp/check_crypto_md.c:1437:
 /home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/libarchive/archive_digest_private.h:81:10: fatal error: 'sha2.h' file not found
 #include <sha2.h>
          ^~~~~~~~
 1 error generated.
-CMakeFiles/cmTC_94e72.dir/build.make:78: recipe for target 'CMakeFiles/cmTC_94e72.dir/check_crypto_md.c.o' failed
-make[1]: *** [CMakeFiles/cmTC_94e72.dir/check_crypto_md.c.o] Error 1
+CMakeFiles/cmTC_7be7e.dir/build.make:78: recipe for target 'CMakeFiles/cmTC_7be7e.dir/check_crypto_md.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_7be7e.dir/check_crypto_md.c.o] Error 1
 make[1]: Leaving directory '/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp'
-Makefile:127: recipe for target 'cmTC_94e72/fast' failed
-make: *** [cmTC_94e72/fast] Error 2
+Makefile:127: recipe for target 'cmTC_7be7e/fast' failed
+make: *** [cmTC_7be7e/fast] Error 2
 
 
 Source file was:
@@ -30041,21 +30041,21 @@ main(int argc, char **argv)
 Checking support for ARCHIVE_CRYPTO_SHA384_LIBC3 failed with the following output:
 Change Dir: '/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp'
 
-Run Build Command(s): /snap/cmake/1366/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_6eae3/fast
-/usr/bin/make  -f CMakeFiles/cmTC_6eae3.dir/build.make CMakeFiles/cmTC_6eae3.dir/build
+Run Build Command(s): /snap/cmake/1366/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_3156e/fast
+/usr/bin/make  -f CMakeFiles/cmTC_3156e.dir/build.make CMakeFiles/cmTC_3156e.dir/build
 make[1]: Entering directory '/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_6eae3.dir/check_crypto_md.c.o
-/usr/local/bin/afl-clang-fast  -I/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2 -I/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/libarchive -I/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp -Wformat -Wformat-security -ffunction-sections -fdata-sections  -MD -MT CMakeFiles/cmTC_6eae3.dir/check_crypto_md.c.o -MF CMakeFiles/cmTC_6eae3.dir/check_crypto_md.c.o.d -o CMakeFiles/cmTC_6eae3.dir/check_crypto_md.c.o -c /home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp/check_crypto_md.c
+Building C object CMakeFiles/cmTC_3156e.dir/check_crypto_md.c.o
+/usr/local/bin/afl-clang-fast  -I/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2 -I/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/libarchive -I/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp -Wformat -Wformat-security -ffunction-sections -fdata-sections  -MD -MT CMakeFiles/cmTC_3156e.dir/check_crypto_md.c.o -MF CMakeFiles/cmTC_3156e.dir/check_crypto_md.c.o.d -o CMakeFiles/cmTC_3156e.dir/check_crypto_md.c.o -c /home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp/check_crypto_md.c
 In file included from /home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp/check_crypto_md.c:1437:
 /home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/libarchive/archive_digest_private.h:81:10: fatal error: 'sha2.h' file not found
 #include <sha2.h>
          ^~~~~~~~
 1 error generated.
-CMakeFiles/cmTC_6eae3.dir/build.make:78: recipe for target 'CMakeFiles/cmTC_6eae3.dir/check_crypto_md.c.o' failed
-make[1]: *** [CMakeFiles/cmTC_6eae3.dir/check_crypto_md.c.o] Error 1
+CMakeFiles/cmTC_3156e.dir/build.make:78: recipe for target 'CMakeFiles/cmTC_3156e.dir/check_crypto_md.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_3156e.dir/check_crypto_md.c.o] Error 1
 make[1]: Leaving directory '/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp'
-Makefile:127: recipe for target 'cmTC_6eae3/fast' failed
-make: *** [cmTC_6eae3/fast] Error 2
+Makefile:127: recipe for target 'cmTC_3156e/fast' failed
+make: *** [cmTC_3156e/fast] Error 2
 
 
 Source file was:
@@ -33045,21 +33045,21 @@ main(int argc, char **argv)
 Checking support for ARCHIVE_CRYPTO_SHA512_LIBC3 failed with the following output:
 Change Dir: '/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp'
 
-Run Build Command(s): /snap/cmake/1366/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_142c0/fast
-/usr/bin/make  -f CMakeFiles/cmTC_142c0.dir/build.make CMakeFiles/cmTC_142c0.dir/build
+Run Build Command(s): /snap/cmake/1366/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_1c5cc/fast
+/usr/bin/make  -f CMakeFiles/cmTC_1c5cc.dir/build.make CMakeFiles/cmTC_1c5cc.dir/build
 make[1]: Entering directory '/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_142c0.dir/check_crypto_md.c.o
-/usr/local/bin/afl-clang-fast  -I/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2 -I/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/libarchive -I/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp -Wformat -Wformat-security -ffunction-sections -fdata-sections  -MD -MT CMakeFiles/cmTC_142c0.dir/check_crypto_md.c.o -MF CMakeFiles/cmTC_142c0.dir/check_crypto_md.c.o.d -o CMakeFiles/cmTC_142c0.dir/check_crypto_md.c.o -c /home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp/check_crypto_md.c
+Building C object CMakeFiles/cmTC_1c5cc.dir/check_crypto_md.c.o
+/usr/local/bin/afl-clang-fast  -I/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2 -I/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/libarchive -I/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp -Wformat -Wformat-security -ffunction-sections -fdata-sections  -MD -MT CMakeFiles/cmTC_1c5cc.dir/check_crypto_md.c.o -MF CMakeFiles/cmTC_1c5cc.dir/check_crypto_md.c.o.d -o CMakeFiles/cmTC_1c5cc.dir/check_crypto_md.c.o -c /home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp/check_crypto_md.c
 In file included from /home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp/check_crypto_md.c:1437:
 /home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/libarchive/archive_digest_private.h:81:10: fatal error: 'sha2.h' file not found
 #include <sha2.h>
          ^~~~~~~~
 1 error generated.
-CMakeFiles/cmTC_142c0.dir/build.make:78: recipe for target 'CMakeFiles/cmTC_142c0.dir/check_crypto_md.c.o' failed
-make[1]: *** [CMakeFiles/cmTC_142c0.dir/check_crypto_md.c.o] Error 1
+CMakeFiles/cmTC_1c5cc.dir/build.make:78: recipe for target 'CMakeFiles/cmTC_1c5cc.dir/check_crypto_md.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_1c5cc.dir/check_crypto_md.c.o] Error 1
 make[1]: Leaving directory '/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp'
-Makefile:127: recipe for target 'cmTC_142c0/fast' failed
-make: *** [cmTC_142c0/fast] Error 2
+Makefile:127: recipe for target 'cmTC_1c5cc/fast' failed
+make: *** [cmTC_1c5cc/fast] Error 2
 
 
 Source file was:
@@ -36049,21 +36049,21 @@ main(int argc, char **argv)
 Checking support for ARCHIVE_CRYPTO_MD5_LIBSYSTEM failed with the following output:
 Change Dir: '/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp'
 
-Run Build Command(s): /snap/cmake/1366/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_637e0/fast
-/usr/bin/make  -f CMakeFiles/cmTC_637e0.dir/build.make CMakeFiles/cmTC_637e0.dir/build
+Run Build Command(s): /snap/cmake/1366/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_e6e6b/fast
+/usr/bin/make  -f CMakeFiles/cmTC_e6e6b.dir/build.make CMakeFiles/cmTC_e6e6b.dir/build
 make[1]: Entering directory '/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_637e0.dir/check_crypto_md.c.o
-/usr/local/bin/afl-clang-fast  -I/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2 -I/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/libarchive -I/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp -Wformat -Wformat-security -ffunction-sections -fdata-sections  -MD -MT CMakeFiles/cmTC_637e0.dir/check_crypto_md.c.o -MF CMakeFiles/cmTC_637e0.dir/check_crypto_md.c.o.d -o CMakeFiles/cmTC_637e0.dir/check_crypto_md.c.o -c /home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp/check_crypto_md.c
+Building C object CMakeFiles/cmTC_e6e6b.dir/check_crypto_md.c.o
+/usr/local/bin/afl-clang-fast  -I/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2 -I/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/libarchive -I/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp -Wformat -Wformat-security -ffunction-sections -fdata-sections  -MD -MT CMakeFiles/cmTC_e6e6b.dir/check_crypto_md.c.o -MF CMakeFiles/cmTC_e6e6b.dir/check_crypto_md.c.o.d -o CMakeFiles/cmTC_e6e6b.dir/check_crypto_md.c.o -c /home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp/check_crypto_md.c
 In file included from /home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp/check_crypto_md.c:1437:
 /home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/libarchive/archive_digest_private.h:115:10: fatal error: 'CommonCrypto/CommonDigest.h' file not found
 #include <CommonCrypto/CommonDigest.h>
          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 1 error generated.
-CMakeFiles/cmTC_637e0.dir/build.make:78: recipe for target 'CMakeFiles/cmTC_637e0.dir/check_crypto_md.c.o' failed
-make[1]: *** [CMakeFiles/cmTC_637e0.dir/check_crypto_md.c.o] Error 1
+CMakeFiles/cmTC_e6e6b.dir/build.make:78: recipe for target 'CMakeFiles/cmTC_e6e6b.dir/check_crypto_md.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_e6e6b.dir/check_crypto_md.c.o] Error 1
 make[1]: Leaving directory '/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp'
-Makefile:127: recipe for target 'cmTC_637e0/fast' failed
-make: *** [cmTC_637e0/fast] Error 2
+Makefile:127: recipe for target 'cmTC_e6e6b/fast' failed
+make: *** [cmTC_e6e6b/fast] Error 2
 
 
 Source file was:
@@ -39053,21 +39053,21 @@ main(int argc, char **argv)
 Checking support for ARCHIVE_CRYPTO_SHA1_LIBSYSTEM failed with the following output:
 Change Dir: '/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp'
 
-Run Build Command(s): /snap/cmake/1366/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_bf9b0/fast
-/usr/bin/make  -f CMakeFiles/cmTC_bf9b0.dir/build.make CMakeFiles/cmTC_bf9b0.dir/build
+Run Build Command(s): /snap/cmake/1366/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_13445/fast
+/usr/bin/make  -f CMakeFiles/cmTC_13445.dir/build.make CMakeFiles/cmTC_13445.dir/build
 make[1]: Entering directory '/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_bf9b0.dir/check_crypto_md.c.o
-/usr/local/bin/afl-clang-fast  -I/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2 -I/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/libarchive -I/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp -Wformat -Wformat-security -ffunction-sections -fdata-sections  -MD -MT CMakeFiles/cmTC_bf9b0.dir/check_crypto_md.c.o -MF CMakeFiles/cmTC_bf9b0.dir/check_crypto_md.c.o.d -o CMakeFiles/cmTC_bf9b0.dir/check_crypto_md.c.o -c /home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp/check_crypto_md.c
+Building C object CMakeFiles/cmTC_13445.dir/check_crypto_md.c.o
+/usr/local/bin/afl-clang-fast  -I/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2 -I/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/libarchive -I/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp -Wformat -Wformat-security -ffunction-sections -fdata-sections  -MD -MT CMakeFiles/cmTC_13445.dir/check_crypto_md.c.o -MF CMakeFiles/cmTC_13445.dir/check_crypto_md.c.o.d -o CMakeFiles/cmTC_13445.dir/check_crypto_md.c.o -c /home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp/check_crypto_md.c
 In file included from /home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp/check_crypto_md.c:1437:
 /home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/libarchive/archive_digest_private.h:115:10: fatal error: 'CommonCrypto/CommonDigest.h' file not found
 #include <CommonCrypto/CommonDigest.h>
          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 1 error generated.
-CMakeFiles/cmTC_bf9b0.dir/build.make:78: recipe for target 'CMakeFiles/cmTC_bf9b0.dir/check_crypto_md.c.o' failed
-make[1]: *** [CMakeFiles/cmTC_bf9b0.dir/check_crypto_md.c.o] Error 1
+CMakeFiles/cmTC_13445.dir/build.make:78: recipe for target 'CMakeFiles/cmTC_13445.dir/check_crypto_md.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_13445.dir/check_crypto_md.c.o] Error 1
 make[1]: Leaving directory '/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp'
-Makefile:127: recipe for target 'cmTC_bf9b0/fast' failed
-make: *** [cmTC_bf9b0/fast] Error 2
+Makefile:127: recipe for target 'cmTC_13445/fast' failed
+make: *** [cmTC_13445/fast] Error 2
 
 
 Source file was:
@@ -42057,21 +42057,21 @@ main(int argc, char **argv)
 Checking support for ARCHIVE_CRYPTO_SHA256_LIBSYSTEM failed with the following output:
 Change Dir: '/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp'
 
-Run Build Command(s): /snap/cmake/1366/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_d39ba/fast
-/usr/bin/make  -f CMakeFiles/cmTC_d39ba.dir/build.make CMakeFiles/cmTC_d39ba.dir/build
+Run Build Command(s): /snap/cmake/1366/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_a8740/fast
+/usr/bin/make  -f CMakeFiles/cmTC_a8740.dir/build.make CMakeFiles/cmTC_a8740.dir/build
 make[1]: Entering directory '/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_d39ba.dir/check_crypto_md.c.o
-/usr/local/bin/afl-clang-fast  -I/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2 -I/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/libarchive -I/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp -Wformat -Wformat-security -ffunction-sections -fdata-sections  -MD -MT CMakeFiles/cmTC_d39ba.dir/check_crypto_md.c.o -MF CMakeFiles/cmTC_d39ba.dir/check_crypto_md.c.o.d -o CMakeFiles/cmTC_d39ba.dir/check_crypto_md.c.o -c /home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp/check_crypto_md.c
+Building C object CMakeFiles/cmTC_a8740.dir/check_crypto_md.c.o
+/usr/local/bin/afl-clang-fast  -I/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2 -I/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/libarchive -I/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp -Wformat -Wformat-security -ffunction-sections -fdata-sections  -MD -MT CMakeFiles/cmTC_a8740.dir/check_crypto_md.c.o -MF CMakeFiles/cmTC_a8740.dir/check_crypto_md.c.o.d -o CMakeFiles/cmTC_a8740.dir/check_crypto_md.c.o -c /home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp/check_crypto_md.c
 In file included from /home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp/check_crypto_md.c:1437:
 /home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/libarchive/archive_digest_private.h:115:10: fatal error: 'CommonCrypto/CommonDigest.h' file not found
 #include <CommonCrypto/CommonDigest.h>
          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 1 error generated.
-CMakeFiles/cmTC_d39ba.dir/build.make:78: recipe for target 'CMakeFiles/cmTC_d39ba.dir/check_crypto_md.c.o' failed
-make[1]: *** [CMakeFiles/cmTC_d39ba.dir/check_crypto_md.c.o] Error 1
+CMakeFiles/cmTC_a8740.dir/build.make:78: recipe for target 'CMakeFiles/cmTC_a8740.dir/check_crypto_md.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_a8740.dir/check_crypto_md.c.o] Error 1
 make[1]: Leaving directory '/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp'
-Makefile:127: recipe for target 'cmTC_d39ba/fast' failed
-make: *** [cmTC_d39ba/fast] Error 2
+Makefile:127: recipe for target 'cmTC_a8740/fast' failed
+make: *** [cmTC_a8740/fast] Error 2
 
 
 Source file was:
@@ -45061,21 +45061,21 @@ main(int argc, char **argv)
 Checking support for ARCHIVE_CRYPTO_SHA384_LIBSYSTEM failed with the following output:
 Change Dir: '/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp'
 
-Run Build Command(s): /snap/cmake/1366/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_e9bd4/fast
-/usr/bin/make  -f CMakeFiles/cmTC_e9bd4.dir/build.make CMakeFiles/cmTC_e9bd4.dir/build
+Run Build Command(s): /snap/cmake/1366/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_8ea0d/fast
+/usr/bin/make  -f CMakeFiles/cmTC_8ea0d.dir/build.make CMakeFiles/cmTC_8ea0d.dir/build
 make[1]: Entering directory '/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_e9bd4.dir/check_crypto_md.c.o
-/usr/local/bin/afl-clang-fast  -I/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2 -I/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/libarchive -I/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp -Wformat -Wformat-security -ffunction-sections -fdata-sections  -MD -MT CMakeFiles/cmTC_e9bd4.dir/check_crypto_md.c.o -MF CMakeFiles/cmTC_e9bd4.dir/check_crypto_md.c.o.d -o CMakeFiles/cmTC_e9bd4.dir/check_crypto_md.c.o -c /home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp/check_crypto_md.c
+Building C object CMakeFiles/cmTC_8ea0d.dir/check_crypto_md.c.o
+/usr/local/bin/afl-clang-fast  -I/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2 -I/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/libarchive -I/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp -Wformat -Wformat-security -ffunction-sections -fdata-sections  -MD -MT CMakeFiles/cmTC_8ea0d.dir/check_crypto_md.c.o -MF CMakeFiles/cmTC_8ea0d.dir/check_crypto_md.c.o.d -o CMakeFiles/cmTC_8ea0d.dir/check_crypto_md.c.o -c /home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp/check_crypto_md.c
 In file included from /home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp/check_crypto_md.c:1437:
 /home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/libarchive/archive_digest_private.h:115:10: fatal error: 'CommonCrypto/CommonDigest.h' file not found
 #include <CommonCrypto/CommonDigest.h>
          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 1 error generated.
-CMakeFiles/cmTC_e9bd4.dir/build.make:78: recipe for target 'CMakeFiles/cmTC_e9bd4.dir/check_crypto_md.c.o' failed
-make[1]: *** [CMakeFiles/cmTC_e9bd4.dir/check_crypto_md.c.o] Error 1
+CMakeFiles/cmTC_8ea0d.dir/build.make:78: recipe for target 'CMakeFiles/cmTC_8ea0d.dir/check_crypto_md.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_8ea0d.dir/check_crypto_md.c.o] Error 1
 make[1]: Leaving directory '/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp'
-Makefile:127: recipe for target 'cmTC_e9bd4/fast' failed
-make: *** [cmTC_e9bd4/fast] Error 2
+Makefile:127: recipe for target 'cmTC_8ea0d/fast' failed
+make: *** [cmTC_8ea0d/fast] Error 2
 
 
 Source file was:
@@ -48065,21 +48065,21 @@ main(int argc, char **argv)
 Checking support for ARCHIVE_CRYPTO_SHA512_LIBSYSTEM failed with the following output:
 Change Dir: '/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp'
 
-Run Build Command(s): /snap/cmake/1366/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_f0bb4/fast
-/usr/bin/make  -f CMakeFiles/cmTC_f0bb4.dir/build.make CMakeFiles/cmTC_f0bb4.dir/build
+Run Build Command(s): /snap/cmake/1366/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_a5a2c/fast
+/usr/bin/make  -f CMakeFiles/cmTC_a5a2c.dir/build.make CMakeFiles/cmTC_a5a2c.dir/build
 make[1]: Entering directory '/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_f0bb4.dir/check_crypto_md.c.o
-/usr/local/bin/afl-clang-fast  -I/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2 -I/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/libarchive -I/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp -Wformat -Wformat-security -ffunction-sections -fdata-sections  -MD -MT CMakeFiles/cmTC_f0bb4.dir/check_crypto_md.c.o -MF CMakeFiles/cmTC_f0bb4.dir/check_crypto_md.c.o.d -o CMakeFiles/cmTC_f0bb4.dir/check_crypto_md.c.o -c /home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp/check_crypto_md.c
+Building C object CMakeFiles/cmTC_a5a2c.dir/check_crypto_md.c.o
+/usr/local/bin/afl-clang-fast  -I/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2 -I/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/libarchive -I/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp -Wformat -Wformat-security -ffunction-sections -fdata-sections  -MD -MT CMakeFiles/cmTC_a5a2c.dir/check_crypto_md.c.o -MF CMakeFiles/cmTC_a5a2c.dir/check_crypto_md.c.o.d -o CMakeFiles/cmTC_a5a2c.dir/check_crypto_md.c.o -c /home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp/check_crypto_md.c
 In file included from /home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp/check_crypto_md.c:1437:
 /home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/libarchive/archive_digest_private.h:115:10: fatal error: 'CommonCrypto/CommonDigest.h' file not found
 #include <CommonCrypto/CommonDigest.h>
          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 1 error generated.
-CMakeFiles/cmTC_f0bb4.dir/build.make:78: recipe for target 'CMakeFiles/cmTC_f0bb4.dir/check_crypto_md.c.o' failed
-make[1]: *** [CMakeFiles/cmTC_f0bb4.dir/check_crypto_md.c.o] Error 1
+CMakeFiles/cmTC_a5a2c.dir/build.make:78: recipe for target 'CMakeFiles/cmTC_a5a2c.dir/check_crypto_md.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_a5a2c.dir/check_crypto_md.c.o] Error 1
 make[1]: Leaving directory '/home/raihan/CS5963-fuzzing/lab3/libarchive-3.7.2/build2/CMakeFiles/CMakeTmp'
-Makefile:127: recipe for target 'cmTC_f0bb4/fast' failed
-make: *** [cmTC_f0bb4/fast] Error 2
+Makefile:127: recipe for target 'cmTC_a5a2c/fast' failed
+make: *** [cmTC_a5a2c/fast] Error 2
 
 
 Source file was:
