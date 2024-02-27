@@ -121,14 +121,37 @@ I got the following which is asking for 1 valid input is because I didn't provid
 
 Now, I called the harness program from `main` like following,
 ```
-#define SIZE 1000
+int main(int argc, char* argv[]) {
+    if (argc != 2) {
+        std::cerr << "Usage: " << argv[0] << " <input_file>\n";
+        return 1;
+    }
 
-int main(){
-	const uint8_t input[SIZE] = {0};
-	ssize_t length;
-	length = read(STDIN_FILENO, (char*)input, SIZE);
+    const char* filename = argv[1];
+    std::ifstream input_file(filename, std::ios::binary);
+    if (!input_file) {
+        std::cerr << "Error: Unable to open input file: " << filename << '\n';
+        return 1;
+    }
 
-	LLVMFuzzerTestOneInput(input, length);	
+    // Determine the size of the file
+    input_file.seekg(0, std::ios::end);
+    std::streamsize length = input_file.tellg();
+    input_file.seekg(0, std::ios::beg);
+
+    // Allocate a buffer to hold the file contents
+    std::vector<uint8_t> input(length);
+
+    // Read the file contents into the buffer
+    if (!input_file.read(reinterpret_cast<char*>(input.data()), length)) {
+        std::cerr << "Error: Failed to read input file: " << filename << '\n';
+        return 1;
+    }
+
+    std::cout << "Input is: " << filename << '\n';
+    LLVMFuzzerTestOneInput(input.data(), length);
+
+    return 0;
 }
 ```
 
