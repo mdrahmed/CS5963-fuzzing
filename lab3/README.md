@@ -88,26 +88,35 @@ sudo apt-get install libacl1-dev
 sudo apt-get install liblz4-dev
 sudo apt-get install libbz2-dev
 sudo apt-get install liblzma-dev
+sudo apt-get install libxml2-dev
 ```
-or, just run this `sudo apt-get install liblzo2-dev libssl-dev libacl1-dev liblz4-dev libbz2-dev sharutils liblzma-dev`
+or, just run this `sudo apt-get install liblzo2-dev libssl-dev libacl1-dev liblz4-dev libbz2-dev sharutils liblzma-dev libxml2-dev zip -y`
 ```
 echo '$(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(libarchive_test_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT libarchive/test-archive_write.o -MD -MP -MF libarchive/$(DEPDIR)/test-archive_write.Tpo -c -o libarchive/test-archive_write.o `test -f 'libarchive/archive_write.c' || echo '$(srcdir)/'`libarchive/archive_write.c'
 ```
 
 And do following to set the environment,
 ```
-cd libarchive-3.7.2
-export SRC='.'
-mkdir OUT
-export OUT='OUT'
-
-# copy the libarchive_fuzzer.cc and build.sh from the oss-fuzz repo
+cd libarchive
+export SRC='<path to libarchive>'
+export SRC='/root/libarchive'
+cd $SRC
+mkdir -p OUT
+export OUT='<path to OUT dir>'
+export OUT='/root/libarchive/OUT'
+mkdir -p deps
+export deps='<path to deps dir>'
+export deps='/root/libarchive/deps'
+export CXX='g++'
+export CC='gcc'
+# copy the libarchive_fuzzer.cc and build.sh from the oss-fuzz repo/dir
 ```
 
 Now, just run following,
 ```
 sh build.sh
 ```
+Replacement: `build-modified.sh`
 
 To clean everything, do this, `rm -r build2/ OUT/ uudecode/ pocs/`
 
@@ -156,6 +165,16 @@ int main(int argc, char* argv[]) {
 ```
 
 Now, when I fuzzed it again then it worked fine and got the absolute coverage.
+
+![succesfully-done-1](pics/fuzzing-libarchive/successful-1.png)
+
+Also, got this,
+
+![succesfully-done-2](pics/fuzzing-libarchive/successful-2.png)
+
+After 14 hours,
+![succesfully-done-3](pics/fuzzing-libarchive/successful-3.png)
+
 
 ### Fuzz `bsdtar`
 Now, to fuzz it,
