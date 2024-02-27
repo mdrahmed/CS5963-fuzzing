@@ -1,3 +1,7 @@
+/*
+ * Harness file to fuzz libarchive
+*/
+
 #include <stddef.h>
 #include <stdint.h>
 #include <vector>
@@ -36,7 +40,7 @@ extern "C" int LLVMFuzzerTestOneInput(const uint8_t *buf, size_t len) {
     if (ret == ARCHIVE_RETRY)
       continue;
 
-    // I added following,
+    // I added following functions
     (void)archive_entry_unset_atime(entry);
     (void)archive_entry_xattr_clear(entry);
     (void)archive_entry_xattr_count(entry);
@@ -56,26 +60,6 @@ extern "C" int LLVMFuzzerTestOneInput(const uint8_t *buf, size_t len) {
     (void)archive_entry_dev_is_set(entry);
     (void)archive_entry_devminor(entry);
     (void)archive_entry_devmajor(entry);
-
-    // Original functions
-    (void)archive_entry_pathname(entry);
-    (void)archive_entry_pathname_utf8(entry);
-    (void)archive_entry_pathname_w(entry);
-
-    (void)archive_entry_atime(entry);
-    (void)archive_entry_birthtime(entry);
-    (void)archive_entry_ctime(entry);
-    (void)archive_entry_dev(entry);
-    (void)archive_entry_digest(entry, ARCHIVE_ENTRY_DIGEST_SHA1);
-    (void)archive_entry_filetype(entry);
-    (void)archive_entry_gid(entry);
-    (void)archive_entry_is_data_encrypted(entry);
-    (void)archive_entry_is_encrypted(entry);
-    (void)archive_entry_is_metadata_encrypted(entry);
-    (void)archive_entry_mode(entry);
-    (void)archive_entry_mtime(entry);
-    (void)archive_entry_size(entry);
-    (void)archive_entry_uid(entry);
 
     ssize_t r;
     while ((r = archive_read_data(a, data_buffer.data(),
