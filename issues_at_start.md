@@ -3,6 +3,10 @@
 ## Erros Encountered
 It was not able to find `afl-cc` or some other libraries because the library was not shared globally meaning it was not present inside the `/usr/local/bin` or `/usr/bin/`. So, just went to the `AFLplusplus` directory and ran `sudo make install`.
 
+
+### Issues
+For all issues at start, run the commands shown in sudo mode. Get the sudo mode by running this - `sudo -i`
+
 #### Issue 1
 Now, got ran `make` and `fuzzgoat` is compiled. Now, got this while running `afl-fuzz -i in -o out ./fuzzgoat`
 
